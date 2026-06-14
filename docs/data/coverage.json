@@ -1,8 +1,8 @@
 {
   "summary": {
-    "events_total": 8,
+    "events_total": 10,
     "events_included": 4,
-    "events_excluded": 4,
+    "events_excluded": 6,
     "players": 57,
     "pool_buy_ins_usd": 32644000,
     "pool_winnings_usd": 31166000,
@@ -12,7 +12,7 @@
       2025
     ],
     "buy_in_floor_usd": 11000,
-    "events_evaluated_excluded": 15
+    "events_evaluated_excluded": 12
   },
   "included": [
     {
@@ -133,10 +133,26 @@
       "entries": 75,
       "status": "excluded",
       "field_completeness": "itm_only",
-      "exclusion_reason": "75-entry re-entry field; full entrant list and per-player re-entry counts not available from fetchable sources. Only partial in-the-money data confirmed; full payout table needs verification against The Hendon Mob.",
+      "exclusion_reason": "75-entry RE-ENTRY field; full payouts now confirmed (PokerNews) but the complete entrant roster and per-player re-entry counts are not published, so buy-ins for the field cannot be attributed. Excluded from net P&L.",
       "sources": [
-        "https://www.pgt.com/news/santhosh-suvarna-wins-2024-wsop-250000-super-high-roller",
-        "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm"
+        "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm",
+        "https://www.pgt.com/news/santhosh-suvarna-wins-2024-wsop-250000-super-high-roller"
+      ]
+    },
+    {
+      "id": "2024-11-08-triton-montecarlo-special-invitational",
+      "name": "The Special Triton Invitational (Event #8)",
+      "series": "Triton Super High Roller Series",
+      "stop": "Triton Monte Carlo 2024",
+      "date": "2024-11-08",
+      "year": 2024,
+      "buy_in_usd": 255000,
+      "entries": 80,
+      "status": "excluded",
+      "field_completeness": "itm_only",
+      "exclusion_reason": "RE-ENTRY event: 80 entries incl. 22 re-entries (58 unique). The Hendon Mob gives the 17 paid finishers but not the full entrant roster or which players re-entered, so buy-ins cannot be attributed. Excluded from net P&L.",
+      "sources": [
+        "https://pokerdb.thehendonmob.com/event.php?a=r&n=1112779"
       ]
     },
     {
@@ -154,6 +170,22 @@
       "sources": [
         "https://www.pokernews.com/news/2025/03/chad-eveslage-wins-2025-super-high-roller-bowl-mixed-games-48129.htm",
         "https://www.pokernews.com/news/2025/03/super-high-roller-bowl-100000-mixed-games-day-1-recap-48123.htm"
+      ]
+    },
+    {
+      "id": "2025-05-19-triton-montenegro-invitational",
+      "name": "Triton Invitational (Event #8)",
+      "series": "Triton Super High Roller Series",
+      "stop": "Triton Montenegro 2025",
+      "date": "2025-05-19",
+      "year": 2025,
+      "buy_in_usd": 277000,
+      "entries": 96,
+      "status": "excluded",
+      "field_completeness": "itm_only",
+      "exclusion_reason": "RE-ENTRY event: 96 entries incl. 37 re-entries (59 unique). The Hendon Mob gives the 23 paid finishers but not the full roster or per-player re-entry counts, so buy-ins cannot be attributed. Excluded from net P&L.",
+      "sources": [
+        "https://pokerdb.thehendonmob.com/event.php?a=r&n=1205657"
       ]
     },
     {
@@ -183,21 +215,6 @@
       "status": "excluded",
       "field_completeness": "evaluated_not_full",
       "exclusion_reason": "Invitational but with re-entry / late registration; complete entrant list not published.",
-      "sources": [],
-      "evaluated_only": true
-    },
-    {
-      "id": null,
-      "name": "Triton Monte-Carlo Special Invitational ($210K)",
-      "series": "Triton",
-      "stop": null,
-      "date": null,
-      "year": 2023,
-      "buy_in_usd": 210000,
-      "entries": null,
-      "status": "excluded",
-      "field_completeness": "evaluated_not_full",
-      "exclusion_reason": "Invitational with re-entry; full field not enumerable from public coverage.",
       "sources": [],
       "evaluated_only": true
     },
@@ -248,21 +265,6 @@
     },
     {
       "id": null,
-      "name": "Triton Monte-Carlo Invitational ($200K)",
-      "series": "Triton",
-      "stop": null,
-      "date": null,
-      "year": 2024,
-      "buy_in_usd": 200000,
-      "entries": null,
-      "status": "excluded",
-      "field_completeness": "evaluated_not_full",
-      "exclusion_reason": "Invitational with re-entry / late registration; complete field not published.",
-      "sources": [],
-      "evaluated_only": true
-    },
-    {
-      "id": null,
       "name": "WSOP Paradise Triton Main Event ($100K)",
       "series": "WSOP Paradise / Triton",
       "stop": null,
@@ -303,21 +305,6 @@
       "status": "excluded",
       "field_completeness": "evaluated_not_full",
       "exclusion_reason": "Re-entry event; busted players not all named.",
-      "sources": [],
-      "evaluated_only": true
-    },
-    {
-      "id": null,
-      "name": "Triton Montenegro Invitational ($200K)",
-      "series": "Triton",
-      "stop": null,
-      "date": null,
-      "year": 2025,
-      "buy_in_usd": 200000,
-      "entries": null,
-      "status": "excluded",
-      "field_completeness": "evaluated_not_full",
-      "exclusion_reason": "Invitational with re-entry / late registration; complete field not published.",
       "sources": [],
       "evaluated_only": true
     },

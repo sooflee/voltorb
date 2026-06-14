@@ -16,14 +16,25 @@
   "prize_pool_usd": 18675000,
   "status": "excluded",
   "field_completeness": "itm_only",
-  "exclusion_reason": "75-entry re-entry field; full entrant list and per-player re-entry counts not available from fetchable sources. Only partial in-the-money data confirmed; full payout table needs verification against The Hendon Mob.",
+  "exclusion_reason": "75-entry RE-ENTRY field; full payouts now confirmed (PokerNews) but the complete entrant roster and per-player re-entry counts are not published, so buy-ins for the field cannot be attributed. Excluded from net P&L.",
   "sources": [
-    "https://www.pgt.com/news/santhosh-suvarna-wins-2024-wsop-250000-super-high-roller",
-    "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm"
+    "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm",
+    "https://www.pgt.com/news/santhosh-suvarna-wins-2024-wsop-250000-super-high-roller"
   ],
-  "notes": "Confirmed: Santhosh Suvarna won $5,415,152 over 75 entries, prize pool $18,675,000, defeating Ben Tollerene heads-up. Remaining payout places not yet verified, so only the winner is recorded here.",
+  "notes": "Full 12-place payout table captured from PokerNews (Safari scraper). Suvarna won $5,415,152 over 75 entries, $18,675,000 pool. Still excluded: re-entry, no full roster.",
   "entrants": [],
   "results": [
-    { "place": 1, "player": "Santhosh Suvarna", "payout_usd": 5415152 }
+    { "place": 1, "player": "Santhosh Suvarna", "payout_usd": 5415152 },
+    { "place": 2, "player": "Ben Tollerene", "payout_usd": 3537135 },
+    { "place": 3, "player": "Chris Hunichen", "payout_usd": 2397312 },
+    { "place": 4, "player": "Matthias Eibinger", "payout_usd": 1688278 },
+    { "place": 5, "player": "Charles Hook", "payout_usd": 1237296 },
+    { "place": 6, "player": "Taylor von Kriegenbergh", "payout_usd": 945219 },
+    { "place": 7, "player": "Jeremy Ausmus", "payout_usd": 754052 },
+    { "place": 8, "player": "Mikita Badziakouski", "payout_usd": 629407 },
+    { "place": 9, "player": "Sean Winter", "payout_usd": 550878 },
+    { "place": 10, "player": "Adrian Mateos", "payout_usd": 506757 },
+    { "place": 11, "player": "Phil Ivey", "payout_usd": 506757 },
+    { "place": 12, "player": "Jonathan Jaffe", "payout_usd": 506757 }
   ]
 }
