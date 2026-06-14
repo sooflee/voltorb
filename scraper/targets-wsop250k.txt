@@ -1,0 +1,28 @@
+# WSOP 2024 Event #55 — $250,000 Super High Roller : RE-ENTRY reconstruction test
+# Run:  python3 scraper/safari_scrape.py --targets scraper/targets-wsop250k.txt
+#
+# Goal: recover (a) every UNIQUE entrant and (b) how many bullets each fired, from
+# the full live blog. Known so far: 75 total entries; Day 1 = 58 entries from 51
+# unique players (=> 7 Day-1 re-entries) + more on Day 2; $18,675,000 pool; 12 paid.
+# PokerNews live updates are paginated ?page=1..9 (page 1 = latest, 9 = Day-1 start).
+# These are plain PokerNews pages (no Cloudflare) — Safari captures them directly.
+
+# --- Full live-blog feed, newest -> oldest (9 pages) ---
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/?page=2
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/?page=3
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/?page=4
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/?page=5
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/?page=6
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/?page=7
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/?page=8
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/?page=9
+
+# --- Day-1-only feed (where most registrations/re-entries are logged) ---
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/day1/
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/day1/?page=2
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/day1/?page=3
+
+# --- Day-1 chip counts (survivors snapshot) + final-table seat draw ---
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/chips.656733.htm
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/seat-draw.htm
