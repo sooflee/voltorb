@@ -4,6 +4,33 @@ This runs on **your machine** in a **real, visible browser** so it gets past the
 anti-bot / login walls that block the hosted agent. You solve any "I'm human" check or log in
 once; the session is saved and reused.
 
+## Which collector to use
+
+| Script | Engine | Use when |
+|---|---|---|
+| **`safari_scrape.py`** (macOS) | **your real Safari** (AppleScript) | **Recommended.** Hendon Mob's Cloudflare blocks *automated* browsers (Playwright sets a `webdriver` flag) even WebKit. Scripting real Safari has no automation fingerprint, so it passes wherever your manual Safari does. |
+| `scrape.py` | Playwright (webkit/chromium/firefox) | non-macOS, or sites that don't fingerprint automation. |
+
+### `safari_scrape.py` (macOS — the one that works against Hendon Mob)
+
+One-time setup in Safari:
+1. **Safari ▸ Settings ▸ Advanced ▸** check **"Show features for web developers"**.
+2. **Safari ▸ Develop ▸** check **"Allow JavaScript from Apple Events"**.
+3. First run shows a macOS prompt *"Terminal wants to control Safari"* → **OK** (and approve
+   under **System Settings ▸ Privacy & Security ▸ Automation** if asked).
+
+Then:
+```bash
+python scraper/safari_scrape.py --targets scraper/targets.txt
+```
+It drives your front Safari tab through each URL and writes `data/incoming/<slug>.json` +
+`.txt`. If a Cloudflare/login wall appears, clear it in the Safari window and press **Enter**
+in the terminal. (It needs no venv/Playwright — pure AppleScript + Python stdlib.)
+
+---
+
+### `scrape.py` (Playwright) — the cross-platform fallback
+
 ## 1. Install (once)
 
 ```bash
