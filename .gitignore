@@ -1,3 +1,12 @@
 __pycache__/
 *.pyc
 .DS_Store
+.venv/
+
+# Local scraper: browser profile holds your logins/cookies — NEVER commit it.
+.scraper-profile/
+
+# Raw scraped dumps (large / copyright). Only distilled data/events/*.json is committed.
+data/incoming/*
+!data/incoming/.gitkeep
+scraper/targets.txt

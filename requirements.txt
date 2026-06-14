@@ -1,0 +1,3 @@
+# Pipeline (pipeline/build.py) needs nothing beyond the Python 3.8+ standard library.
+# These are only for the local scraper (scraper/scrape.py):
+playwright>=1.44

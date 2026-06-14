@@ -1,0 +1,27 @@
+# Voltorb scraper targets — copy this to scraper/targets.txt and edit.
+# One URL per line. '#' starts a comment. Anything after '|' is a note (ignored).
+#
+# For each event you want INCLUDED you ideally grab TWO pages:
+#   (A) the full FIELD  — a chip-count / players list naming every entrant
+#   (B) the PAYOUTS     — the in-the-money results table
+# A freezeout with (A)+(B) = exact net P&L. For re-entry events, also capture the
+# live-blog text (it often says "X entries, Y unique" and "Player re-entered").
+
+# ---------------- The Hendon Mob (PAYOUTS / cashes) ----------------
+# Solve the Cloudflare "verify you are human" check once; the profile remembers it.
+# Event results page (a=r, n=<event id>):
+https://pokerdb.thehendonmob.com/event.php?a=r&n=1028367   | example: a Triton Jeju 2024 event
+# Festival index — gives links to every event in a stop (run these first to collect ids):
+https://pokerdb.thehendonmob.com/festival.php?a=r&n=63601  | example: Triton Jeju 2024 II
+
+# ---------------- PokerNews live reporting (FULL FIELD) ----------------
+# Open the event on pokernews.com, click the "Chip Counts" tab, copy THAT url.
+# Pattern: https://www.pokernews.com/tours/<series>/<event>/chips.<id>.htm
+# https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/chips.656733.htm
+
+# ---------------- PokerGO Tour / PGT (FULL FIELD, login) ----------------
+# Log into PokerGO in the browser on first visit; then the live-reporting pages load.
+# https://www.pgt.com/live-reporting/<series>/<event>
+
+# ---------------- CardPlayer (PAYOUTS) ----------------
+# https://www.cardplayer.com/poker-tournaments/<id>-<series>/<event-id>/results
