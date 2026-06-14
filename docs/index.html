@@ -33,7 +33,9 @@
 
   .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(148px,1fr)); gap:14px; margin:0; }
   .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:16px 18px; }
-  .card .n { font-size:30px; font-weight:700; color:var(--ac); line-height:1; font-variant-numeric:tabular-nums; }
+  .card .n { font-family:var(--sans); font-size:clamp(18px,2.2vw,24px); font-weight:700;
+    color:var(--ac); line-height:1.05; letter-spacing:-.02em; font-variant-numeric:tabular-nums;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .card .l { font-family:var(--sans); color:var(--mut); font-size:11px; font-weight:600;
     text-transform:uppercase; letter-spacing:.06em; margin-top:8px; }
 
@@ -78,6 +80,14 @@
   .tag.inc { background:rgba(26,125,74,.12); color:var(--pos); }
   .tag.exc { background:rgba(193,44,59,.10); color:var(--neg); }
   .inc-h { color:var(--pos); } .exc-h { color:var(--neg); }
+  .cov { margin:18px 0 0; }
+  .cov > summary { cursor:pointer; list-style:none; font-family:var(--sans); font-size:13px;
+    font-weight:700; text-transform:uppercase; letter-spacing:.05em; padding:8px 0;
+    display:flex; align-items:center; gap:8px; }
+  .cov > summary::-webkit-details-marker { display:none; }
+  .cov > summary::before { content:"\25B8"; font-size:11px; color:var(--mut); }
+  .cov[open] > summary::before { content:"\25BE"; }
+  .cov .tablewrap { margin-top:10px; }
   .reason { font-family:var(--sans); color:var(--mut); font-size:12.5px; line-height:1.45; white-space:normal; }
 
   footer { font-family:var(--sans); color:var(--mut); font-size:12.5px; line-height:1.6;
@@ -147,22 +157,26 @@
   <section id="coverage">
     <h2>Coverage &mdash; which tournaments are used</h2>
     <p class="scope" id="cov-scope"></p>
-    <h3 class="inc-h">Included <span class="tag inc">feeds P&amp;L</span></h3>
-    <div class="tablewrap">
-      <table id="inc"><thead><tr>
-        <th data-k="date">Date</th><th data-k="name">Event</th>
-        <th data-k="buy_in_usd">Buy-in</th><th data-k="entries">Entries</th>
-      </tr></thead><tbody></tbody></table>
-    </div>
+    <details class="cov">
+      <summary class="inc-h">Included <span class="tag inc">feeds P&amp;L</span></summary>
+      <div class="tablewrap">
+        <table id="inc"><thead><tr>
+          <th data-k="date">Date</th><th data-k="name">Event</th>
+          <th data-k="buy_in_usd">Buy-in</th><th data-k="entries">Entries</th>
+        </tr></thead><tbody></tbody></table>
+      </div>
+    </details>
 
-    <h3 class="exc-h">Excluded <span class="tag exc">not used</span></h3>
-    <div class="tablewrap">
-      <table id="exc"><thead><tr>
-        <th data-k="date">Date</th><th data-k="name">Event</th>
-        <th data-k="buy_in_usd">Buy-in</th><th data-k="entries">Entries</th>
-        <th data-k="exclusion_reason">Reason not used</th>
-      </tr></thead><tbody></tbody></table>
-    </div>
+    <details class="cov">
+      <summary class="exc-h">Excluded <span class="tag exc">not used</span></summary>
+      <div class="tablewrap">
+        <table id="exc"><thead><tr>
+          <th data-k="date">Date</th><th data-k="name">Event</th>
+          <th data-k="buy_in_usd">Buy-in</th><th data-k="entries">Entries</th>
+          <th data-k="exclusion_reason">Reason not used</th>
+        </tr></thead><tbody></tbody></table>
+      </div>
+    </details>
   </section>
 
   <footer>
