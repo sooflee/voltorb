@@ -25,7 +25,8 @@ The pipeline (`pipeline/build.py`) reads every file, canonicalizes player names 
 | `unique_entrants` | integer | yes | Distinct players in the field. |
 | `prize_pool_usd` | integer | no | Stated prize pool, used as a validation cross-check. |
 | `status` | string | yes | `included` or `excluded`. Only `included` events feed the P&L. |
-| `field_completeness` | string | yes | `full` (every entrant named), `itm_only` (only cashers known), `partial`. |
+| `field_completeness` | string | yes | `full` (every entrant named), `full_named_plus_anon` (every seat accounted for, but N seats anonymous), `itm_only` (only cashers known), `partial`. |
+| `anonymous_entrants` | integer | no | Count of seats that were real entrants but whom the source did not name (e.g. an anonymous businessman). Default 0. Requires `full_named_plus_anon`. These must be non-cashers; their buy-ins are counted in event/anonymous totals but never attributed to a named leaderboard player. |
 | `exclusion_reason` | string\|null | yes | Why excluded; `null` when included. |
 | `sources` | string[] | yes | URLs the data was reconstructed from. |
 | `entrants` | string[] | when `included` | **Complete** list of distinct entrants (canonical names). Required for `included`. |
@@ -34,9 +35,13 @@ The pipeline (`pipeline/build.py`) reads every file, canonicalizes player names 
 
 ## Inclusion rule
 
-An event may be `status: "included"` **only if `field_completeness == "full"`** — i.e. every
-player who put money in is named in `entrants`. That is the only way net P&L (winnings minus
-*all* buy-ins, including players who busted before the money) is exact.
+An event may be `status: "included"` only if **every seat is accounted for** — either
+`field_completeness == "full"` (every entrant named in `entrants`), or
+`field_completeness == "full_named_plus_anon"` (every entrant named **except** a known number
+of anonymous non-cashing seats, recorded in `anonymous_entrants`). Both keep net P&L exact for
+the named players: anonymous seats' buy-ins are tallied separately and never land on a named
+player. A re-entry event whose per-player bullet counts are unknown can **not** be included this
+way — that is a different problem (unknown buy-ins, not unknown names).
 
 Events without a published full field are kept as `status: "excluded"` with an
 `exclusion_reason`, so coverage is transparent — they appear on the site's coverage page but do
@@ -66,4 +71,4 @@ roi = net_pnl / total_buy_ins
 - Every `results[].player` must appear in `entrants` (for included events).
 - `place` values are unique and positive.
 - If `prize_pool_usd` is present, `sum(payout_usd)` must not exceed it.
-- `len(entrants) == unique_entrants` for included events.
+- `len(entrants) + anonymous_entrants == unique_entrants` for included events.

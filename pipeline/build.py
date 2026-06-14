@@ -64,17 +64,29 @@ def validate(ev, aliases, errors):
             err(f"sum of payouts ${paid:,} exceeds prize pool ${pool:,}")
 
     if ev.get("status") == "included":
-        if ev.get("field_completeness") != "full":
-            err("included events must have field_completeness == 'full'")
+        fc = ev.get("field_completeness")
+        # "full" = every seat named; "full_named_plus_anon" = every seat accounted for,
+        # but N seats are anonymous (a non-cashing player the source did not name).
+        if fc not in ("full", "full_named_plus_anon"):
+            err("included events must have field_completeness 'full' or 'full_named_plus_anon'")
         entrants = ev.get("entrants") or []
         if not entrants:
             err("included event has no entrants list")
-        if ev.get("unique_entrants") not in (None, len(entrants)):
-            err(f"unique_entrants ({ev.get('unique_entrants')}) != len(entrants) ({len(entrants)})")
+        anon = ev.get("anonymous_entrants", 0) or 0
+        if anon < 0:
+            err("anonymous_entrants must be >= 0")
+        if anon and fc != "full_named_plus_anon":
+            err("anonymous_entrants > 0 requires field_completeness 'full_named_plus_anon'")
+        # named + anonymous must account for every distinct seat (== entries for a freezeout)
+        total_seats = len(entrants) + anon
+        uq = ev.get("unique_entrants")
+        if uq is not None and uq != total_seats:
+            err(f"unique_entrants ({uq}) != named ({len(entrants)}) + anonymous ({anon})")
         entrant_set = {canon(e, aliases) for e in entrants}
         for r in results:
             if canon(r["player"], aliases) not in entrant_set:
-                err(f"result player {r['player']!r} not found in entrants list")
+                err(f"result player {r['player']!r} not found in entrants list "
+                    f"(anonymous seats must be non-cashers)")
 
 
 def main():
@@ -152,6 +164,8 @@ def main():
         "players": len(leaderboard),
         "pool_buy_ins_usd": sum(p["buy_ins_usd"] for p in leaderboard),
         "pool_winnings_usd": sum(p["winnings_usd"] for p in leaderboard),
+        "anonymous_entrants": sum((e.get("anonymous_entrants", 0) or 0) for e in included),
+        "anonymous_buy_ins_usd": sum((e.get("anonymous_entrants", 0) or 0) * e["buy_in_usd"] for e in included),
         "years": sorted({e["year"] for e in events}),
         "buy_in_floor_usd": MIN_BUY_IN,
     }

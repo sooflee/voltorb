@@ -1,15 +1,18 @@
 {
   "summary": {
-    "events_total": 19,
-    "events_included": 13,
+    "events_total": 20,
+    "events_included": 14,
     "events_excluded": 6,
-    "players": 165,
-    "pool_buy_ins_usd": 261065818,
-    "pool_winnings_usd": 240484627,
+    "players": 173,
+    "pool_buy_ins_usd": 277565818,
+    "pool_winnings_usd": 257284627,
+    "anonymous_entrants": 1,
+    "anonymous_buy_ins_usd": 300000,
     "years": [
       2012,
       2014,
       2016,
+      2017,
       2018,
       2019,
       2021,
@@ -73,6 +76,23 @@
         "https://www.pokernews.com/news/2016/05/2016-shrb-1-24885.htm",
         "https://www.cardplayer.com/poker-news/20429-rainer-kempe-wins-2016-300-000-buy-in-super-high-roller-bowl",
         "https://en.wikipedia.org/wiki/Super_High_Roller_Bowl"
+      ]
+    },
+    {
+      "id": "2017-05-30-super-high-roller-bowl-iii",
+      "name": "Super High Roller Bowl III",
+      "series": "Super High Roller Bowl",
+      "stop": "SHRB III 2017",
+      "date": "2017-05-30",
+      "year": 2017,
+      "buy_in_usd": 300000,
+      "entries": 56,
+      "status": "included",
+      "field_completeness": "full_named_plus_anon",
+      "exclusion_reason": null,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Super_High_Roller_Bowl_2017",
+        "https://www.pokernews.com/news/2017/05/railbird-report-super-high-roller-bowl-56-players-27975.htm"
       ]
     },
     {

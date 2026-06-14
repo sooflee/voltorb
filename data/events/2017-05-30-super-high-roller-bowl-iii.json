@@ -1,0 +1,48 @@
+{
+  "id": "2017-05-30-super-high-roller-bowl-iii",
+  "name": "Super High Roller Bowl III",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO Tour (PGT)",
+  "stop": "SHRB III 2017",
+  "location": "ARIA Resort & Casino, Las Vegas, USA",
+  "date": "2017-05-30",
+  "year": 2017,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 300000,
+  "currency": "USD",
+  "entries": 56,
+  "unique_entrants": 56,
+  "anonymous_entrants": 1,
+  "prize_pool_usd": 16800000,
+  "status": "included",
+  "field_completeness": "full_named_plus_anon",
+  "exclusion_reason": null,
+  "sources": [
+    "https://de.wikipedia.org/wiki/Super_High_Roller_Bowl_2017",
+    "https://www.pokernews.com/news/2017/05/railbird-report-super-high-roller-bowl-56-players-27975.htm"
+  ],
+  "notes": "Freezeout, 56 entries = 55 named + 1 anonymous businessman (the source named 55; PokerNews flagged one anonymous entrant). 56 x $300,000 = $16,800,000 pool; top 7 paid; payouts reconcile exactly. Vogelsang won $6,000,000. First included event to use 'full_named_plus_anon': the 1 anonymous seat's $300k buy-in is tallied as anonymous, never attributed to a named player. ('Tony G' = Antanas Guoga, distinct from Tony/Anthony Gregg.)",
+  "entrants": [
+    "Koray Aldemir", "Matt Berkey", "Justin Bonomo", "Pratyush Buddiga", "Christian Christner",
+    "Daniel Colman", "Connor Drinan", "David Einhorn", "Antonio Esfandiari", "Antanas Guoga",
+    "Kevin Hart", "Isaac Haxton", "Phil Hellmuth", "Fedor Holz", "Zach Hyman",
+    "Giuseppe Iadisernia", "John Juanda", "Cary Katz", "Byron Kaverman", "Bryn Kenney",
+    "Bill Klein", "Jason Koon", "Igor Kurganov", "Ben Lamb", "Jason Les",
+    "Andrew Lichtenberger", "Ankush Mandavia", "Tom Marchese", "Jason Mercier", "Daniel Negreanu",
+    "Dominik Nitsche", "Bill Perkins", "Dan Perper", "David Peters", "Nick Petrangelo",
+    "Doug Polk", "Brian Rast", "Lauren Roberts", "Andrew Robl", "Stefan Schillhabel",
+    "Jake Schindler", "Erik Seidel", "Scott Seiver", "Dan Shak", "Talal Shakerchi",
+    "Dan Smith", "Steffen Sontheimer", "Sam Soverel", "Brandon Steven", "Ben Sulsky",
+    "Ben Tollerene", "Leon Tsoukernik", "Christoph Vogelsang", "Haralabos Voulgaris", "Sean Winter"
+  ],
+  "results": [
+    { "place": 1, "player": "Christoph Vogelsang", "payout_usd": 6000000 },
+    { "place": 2, "player": "Jake Schindler", "payout_usd": 3600000 },
+    { "place": 3, "player": "Stefan Schillhabel", "payout_usd": 2400000 },
+    { "place": 4, "player": "Leon Tsoukernik", "payout_usd": 1800000 },
+    { "place": 5, "player": "Byron Kaverman", "payout_usd": 1400000 },
+    { "place": 6, "player": "Pratyush Buddiga", "payout_usd": 1000000 },
+    { "place": 7, "player": "Justin Bonomo", "payout_usd": 600000 }
+  ]
+}
