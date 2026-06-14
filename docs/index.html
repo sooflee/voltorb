@@ -45,6 +45,9 @@
   .yf { font-family:var(--sans); font-size:13px; color:var(--ink); background:var(--surface);
     border:1px solid var(--line); border-radius:8px; padding:6px 10px; cursor:pointer; }
   .scope { font-family:var(--sans); font-size:13px; color:var(--mut); }
+  .lbtoggle { margin:12px 0 0; font-family:var(--sans); font-size:13px; font-weight:600;
+    color:var(--ac); background:none; border:none; cursor:pointer; padding:4px 0; }
+  .lbtoggle:hover { text-decoration:underline; }
 
   .tablewrap { background:var(--surface); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
   table { width:100%; border-collapse:collapse; font-family:var(--sans); font-size:14px; }
@@ -97,6 +100,14 @@
 </head>
 <body>
 <div class="wrap">
+  <header>
+    <div class="kick">High-stakes poker · net profit &amp; loss</div>
+    <h1>High Roller Ledger</h1>
+    <p class="dek">Who in the high-stakes professional cohort is actually winning or losing &mdash;
+      live freezeout tournaments, $7,000+ buy-ins, with <i>every</i> buy-in counted (busts included).
+      Data spans 2012&ndash;present; the leaderboard defaults to 2020 onward.</p>
+  </header>
+
   <div class="hiatus">
     <div class="htitle"><span class="dot">⏸</span> Project on hiatus</div>
     <div class="hbody"><b>This project is incomplete and paused.</b> I haven't been able to get the
@@ -105,13 +116,6 @@
       complete field are included. The events below are exact; the
       <a href="#coverage">Coverage</a> section lists everything left out and why.</div>
   </div>
-  <header>
-    <div class="kick">High-stakes poker · net profit &amp; loss</div>
-    <h1>High Roller Ledger</h1>
-    <p class="dek">Who in the high-stakes professional cohort is actually winning or losing &mdash;
-      live freezeout tournaments, $7,000+ buy-ins, with <i>every</i> buy-in counted (busts included).
-      Data spans 2012&ndash;present; the leaderboard defaults to 2020 onward.</p>
-  </header>
 
   <div class="stats" id="cards"></div>
 
@@ -142,6 +146,7 @@
         <tbody></tbody>
       </table>
     </div>
+    <button id="lb-toggle" class="lbtoggle"></button>
   </section>
 
   <aside class="note">
@@ -248,16 +253,18 @@ function renderCards(s) {
     ([l, n]) => `<div class="card"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
 }
 
-let lbRows = [], sortKey = "net_usd", sortAsc = false;
+let lbRows = [], sortKey = "net_usd", sortAsc = false, showAll = false;
 function renderLeaderboard(players) {
   lbRows = players;
   const tb = document.querySelector("#lb tbody");
+  const btn = document.getElementById("lb-toggle");
   const draw = () => {
-    const rows = [...lbRows].sort((a, b) => {
+    const sorted = [...lbRows].sort((a, b) => {
       const av = a[sortKey] ?? -Infinity, bv = b[sortKey] ?? -Infinity;
       if (typeof av === "string") return sortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
       return sortAsc ? av - bv : bv - av;
     });
+    const rows = showAll ? sorted : sorted.slice(0, 5);
     tb.innerHTML = rows.map(p => `<tr>
       <td class="mono">${p.rank}</td>
       <td>${p.player}</td>
@@ -272,7 +279,10 @@ function renderLeaderboard(players) {
       th.classList.toggle("sorted", th.dataset.k === sortKey && !sortAsc);
       th.classList.toggle("asc", th.dataset.k === sortKey && sortAsc);
     });
+    if (lbRows.length <= 5) { btn.style.display = "none"; }
+    else { btn.style.display = ""; btn.textContent = showAll ? "Show top 5 only" : `Show all ${lbRows.length} players ▾`; }
   };
+  btn.onclick = () => { showAll = !showAll; draw(); };
   document.querySelectorAll("#lb th").forEach(th => th.onclick = () => {
     if (sortKey === th.dataset.k) sortAsc = !sortAsc;
     else { sortKey = th.dataset.k; sortAsc = false; }
