@@ -166,12 +166,31 @@ def main():
             "sources": ev.get("sources", []),
         }
 
+    # Events that were evaluated by the field-sweep but did not qualify (no full
+    # field). Recorded for coverage transparency; never affect P&L.
+    evaluated = []
+    eval_path = ROOT / "data" / "evaluated_excluded.json"
+    if eval_path.exists():
+        for e in json.loads(eval_path.read_text()):
+            evaluated.append({
+                "id": None, "name": e["name"], "series": e.get("series"),
+                "stop": None, "date": None, "year": e["year"],
+                "buy_in_usd": e["buy_in_usd"], "entries": None,
+                "status": "excluded", "field_completeness": "evaluated_not_full",
+                "exclusion_reason": e.get("exclusion_reason"), "sources": [],
+                "evaluated_only": True,
+            })
+    summary["events_evaluated_excluded"] = len(evaluated)
+
+    excluded_rows = [event_summary(e) for e in
+                     sorted(excluded, key=lambda e: (e["year"], e.get("date") or ""))]
+    excluded_rows += sorted(evaluated, key=lambda e: (e["year"], e["name"]))
+
     coverage = {
         "summary": summary,
         "included": [event_summary(e) for e in
                      sorted(included, key=lambda e: (e["year"], e.get("date") or ""))],
-        "excluded": [event_summary(e) for e in
-                     sorted(excluded, key=lambda e: (e["year"], e.get("date") or ""))],
+        "excluded": excluded_rows,
     }
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)

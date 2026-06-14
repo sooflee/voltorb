@@ -1,0 +1,51 @@
+{
+  "id": "2023-12-18-wpt-big-one-for-one-drop",
+  "name": "WPT Big One for One Drop ($1,000,000)",
+  "series": "WPT World Championship",
+  "tour": "World Poker Tour",
+  "stop": "WPT World Championship 2023",
+  "location": "Wynn Las Vegas, USA",
+  "date": "2023-12-18",
+  "year": 2023,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 1000000,
+  "currency": "USD",
+  "entries": 17,
+  "unique_entrants": 17,
+  "prize_pool_usd": 15810000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://www.pokernews.com/news/2023/12/big-one-for-one-drop-poker-recap-45152.htm",
+    "https://www.pokernews.com/news/2023/12/big-one-for-one-drop-day-2-45135.htm",
+    "https://www.poker.org/latest-news/mikita-badziakouski-wins-the-wpt-big-one-for-one-drop-for-7.1-million-aBf133R3I8yJ/"
+  ],
+  "notes": "$1,000,000 buy-in charity freezeout, 17 entries = 17 unique. Prize pool $15,810,000 (the ~$70k/entry difference from 17 x $1M is the One Drop charity donation); player cost = $1,000,000 each. Full 17-player field published (small marquee field incl. amateurs Einhorn, Salomon, Shakerchi). Top 4 paid; payouts sum exactly to the $15,810,000 pool. Badziakouski def. Mosboeck heads-up. Reconstructed by the field-sweep workflow; winner/runner-up/entries independently re-confirmed.",
+  "entrants": [
+    "Mikita Badziakouski",
+    "Mario Mosboeck",
+    "Dan Smith",
+    "Isaac Haxton",
+    "Nick Petrangelo",
+    "Santhosh Suvarna",
+    "Adrian Mateos",
+    "Rick Salomon",
+    "Jason Koon",
+    "Chris Brewer",
+    "Stephen Chidwick",
+    "Fedor Holz",
+    "Matthias Eibinger",
+    "Martin Kabrhel",
+    "Phil Ivey",
+    "David Einhorn",
+    "Talal Shakerchi"
+  ],
+  "results": [
+    { "place": 1, "player": "Mikita Badziakouski", "payout_usd": 7114500 },
+    { "place": 2, "player": "Mario Mosboeck", "payout_usd": 4663950 },
+    { "place": 3, "player": "Dan Smith", "payout_usd": 2806750 },
+    { "place": 4, "player": "Isaac Haxton", "payout_usd": 1224800 }
+  ]
+}

@@ -6,9 +6,10 @@ who is actually *winning or losing* once you subtract buy-ins from winnings.
 
 **Live site:** https://sooflee.github.io/voltorb/
 
-> Status: **sample release.** The methodology, pipeline, and site are complete and
-> running on a small, fully-verified event set. The dataset is being expanded — see
-> [Expanding the dataset](#expanding-the-dataset).
+> Status: **early release.** The methodology, pipeline, and site are complete and
+> running on a fully-verified event set (4 included events, 2023–2025). A multi-agent
+> field-sweep evaluated dozens more and rejected those without a complete public field.
+> The dataset keeps expanding — see [Expanding the dataset](#expanding-the-dataset).
 
 ## The core idea (and the honest caveat)
 
@@ -49,15 +50,24 @@ It validates every event (buy-in ≥ $15k, payouts ⊆ prize pool, every result 
 the entrant list for included events), then writes `docs/data/leaderboard.json` and
 `docs/data/coverage.json`. The site reads those JSON files directly.
 
-## Current sample
+## Current dataset
 
-| | |
-|---|---|
-| **Included (1)** | Super High Roller Bowl IX — Cyprus, Aug 2024 · $306k · 24 entrants, full field |
-| **Excluded (4)** | SHRB X 2025, SHRB $100k PLO 2024, WSOP $250k SHR 2024, Triton Montenegro GG MILLION$ $25k — full fields not published |
+**Included (4 events, true net P&L):**
 
-Super High Roller Bowl IX is fully reconstructable: all 24 entrants are named and the four
-payouts sum exactly to the published $7,056,000 prize pool.
+| Event | Date | Buy-in | Field |
+|---|---|---|---|
+| Super High Roller Bowl VIII | Sep 2023 | $300k | 20 |
+| WPT Big One for One Drop | Dec 2023 | $1.0M | 17 |
+| Super High Roller Bowl IX | Aug 2024 | $306k | 24 |
+| Super High Roller Bowl X | Dec 2025 | $100k | 23 |
+
+Every one has a complete, named field and payouts that reconcile exactly to the published
+prize pool. **Excluded:** 4 events on file + 15 more the field-sweep evaluated and rejected
+(re-entry events / invitationals with late registration whose full fields aren't public) —
+all listed with reasons on the site's Coverage page.
+
+These four events already overlap enough to triangulate: e.g. Nick Petrangelo appears in all
+four (net −$1.71M), Jason Koon in three, Dan Smith in three (+$1.41M).
 
 ## Expanding the dataset
 

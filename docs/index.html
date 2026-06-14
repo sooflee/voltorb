@@ -122,7 +122,7 @@ function renderCards(s) {
   const cards = [
     ["Players", s.players],
     ["Events used", s.events_included],
-    ["Events excluded", s.events_excluded],
+    ["Events excluded", s.events_excluded + (s.events_evaluated_excluded || 0)],
     ["Buy-ins tracked", fmtUSD(s.pool_buy_ins_usd)],
     ["Winnings tracked", fmtUSD(s.pool_winnings_usd)],
   ];
@@ -165,7 +165,9 @@ function renderLeaderboard(players) {
 
 function renderCoverage(cov) {
   document.getElementById("cov-scope").textContent =
-    `${cov.summary.events_included} included, ${cov.summary.events_excluded} excluded.`;
+    `${cov.summary.events_included} included; ` +
+    `${cov.summary.events_excluded} excluded on file + ` +
+    `${cov.summary.events_evaluated_excluded || 0} more evaluated by the field-sweep and rejected (no full field).`;
   document.querySelector("#inc tbody").innerHTML = cov.included.map(e => `<tr>
     <td class="mono">${fmtDate(e.date)}</td>
     <td>${e.name}<br><span class="reason">${e.series}${e.stop ? " · " + e.stop : ""}</span></td>
@@ -173,10 +175,11 @@ function renderCoverage(cov) {
     <td class="mono">${e.entries}</td></tr>`).join("") ||
     `<tr><td colspan="4" class="reason">None yet.</td></tr>`;
   document.querySelector("#exc tbody").innerHTML = cov.excluded.map(e => `<tr>
-    <td class="mono">${fmtDate(e.date) || e.year}</td>
-    <td>${e.name}<br><span class="reason">${e.series}${e.stop ? " · " + e.stop : ""}</span></td>
+    <td class="mono">${e.date || e.year}</td>
+    <td>${e.name}${e.evaluated_only ? ' <span class="tag exc">evaluated</span>' : ""}<br>
+        <span class="reason">${e.series || ""}${e.stop ? " · " + e.stop : ""}</span></td>
     <td class="mono">${fmtUSD(e.buy_in_usd)}</td>
-    <td class="mono">${e.entries}</td>
+    <td class="mono">${e.entries ?? "—"}</td>
     <td class="reason">${e.exclusion_reason || ""}</td></tr>`).join("") ||
     `<tr><td colspan="5" class="reason">None.</td></tr>`;
 }

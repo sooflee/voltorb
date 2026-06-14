@@ -1,0 +1,17 @@
+[
+  { "name": "Super High Roller Bowl $100K Pot-Limit Omaha", "year": 2023, "buy_in_usd": 100000, "series": "Super High Roller Bowl", "exclusion_reason": "Re-entry event; full field and per-player re-entry counts not published." },
+  { "name": "Triton London Luxon Invitational ($262.5K)", "year": 2023, "buy_in_usd": 262500, "series": "Triton", "exclusion_reason": "Invitational but with re-entry / late registration; complete entrant list not published." },
+  { "name": "Triton Monte-Carlo Special Invitational ($210K)", "year": 2023, "buy_in_usd": 210000, "series": "Triton", "exclusion_reason": "Invitational with re-entry; full field not enumerable from public coverage." },
+  { "name": "U.S. Poker Open Main Event ($50K)", "year": 2023, "buy_in_usd": 50000, "series": "PokerGO Tour", "exclusion_reason": "Re-entry event; busted players not all named, so buy-ins cannot be attributed." },
+  { "name": "Poker Masters high rollers ($15K-$25K)", "year": 2024, "buy_in_usd": 25200, "series": "PokerGO Tour", "exclusion_reason": "Re-entry events; full fields not published." },
+  { "name": "Triton Monte-Carlo Invitational ($200K)", "year": 2024, "buy_in_usd": 200000, "series": "Triton", "exclusion_reason": "Invitational with re-entry / late registration; complete field not published." },
+  { "name": "Triton London Invitational ($262.5K)", "year": 2024, "buy_in_usd": 262500, "series": "Triton", "exclusion_reason": "Invitational with re-entry; full field not enumerable." },
+  { "name": "WSOP Paradise Triton Million ($1M)", "year": 2024, "buy_in_usd": 1000000, "series": "WSOP Paradise / Triton", "exclusion_reason": "Re-entry; full field not published." },
+  { "name": "WSOP Paradise Triton Main Event ($100K)", "year": 2024, "buy_in_usd": 100000, "series": "WSOP Paradise / Triton", "exclusion_reason": "Large re-entry field; full entrant list not published." },
+  { "name": "EPT Barcelona EUR100,000 Super High Roller", "year": 2025, "buy_in_usd": 117000, "series": "EPT", "exclusion_reason": "Re-entry event; busted players not all named." },
+  { "name": "Triton Montenegro Invitational ($200K)", "year": 2025, "buy_in_usd": 200000, "series": "Triton", "exclusion_reason": "Invitational with re-entry / late registration; complete field not published." },
+  { "name": "WSOP Paradise Triton Invitational ($250K)", "year": 2025, "buy_in_usd": 250000, "series": "WSOP Paradise / Triton", "exclusion_reason": "Invitational with late registration to 126 entries; full field not published." },
+  { "name": "WSOP $100K High Roller / Triton Main Event ($106K)", "year": 2025, "buy_in_usd": 106000, "series": "WSOP / Triton", "exclusion_reason": "Large re-entry field; full entrant list not published." },
+  { "name": "Super High Roller Bowl $100K Mixed Games", "year": 2026, "buy_in_usd": 100000, "series": "Super High Roller Bowl", "exclusion_reason": "Re-entry event; full field and re-entry counts not published." },
+  { "name": "Triton Invitational ($200K)", "year": 2026, "buy_in_usd": 200000, "series": "Triton", "exclusion_reason": "Invitational with re-entry / late registration; complete field not published." }
+]
