@@ -9,4 +9,3 @@ __pycache__/
 # Raw scraped dumps (large / copyright). Only distilled data/events/*.json is committed.
 data/incoming/*
 !data/incoming/.gitkeep
-scraper/targets.txt

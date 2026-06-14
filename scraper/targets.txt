@@ -1,0 +1,40 @@
+# Voltorb scraper — pre-loaded high-value targets. Just run:
+#     python scraper/scrape.py --targets scraper/targets.txt
+# One URL per line. '#' = comment. Text after '|' is a note (ignored).
+#
+# HOW THIS GOES: Tier 1 = Hendon Mob index + payout pages (cashes) and one full WSOP
+# field. Run it, solve the Cloudflare "I'm human" check ONCE on the first hendonmob
+# page, then press Enter per page. Hand the data/incoming/ files back to Claude; from
+# the captured LINKS Claude picks the exact $11k+ events and gives you Tier-2 field URLs.
+
+# ========================= TIER 1 — run first =========================
+
+# --- Hendon Mob CIRCUIT indexes: every festival+event in a series-year (payout links) ---
+https://pokerdb.thehendonmob.com/circuit.php?a=e&n=TRITON&s=2023   | all Triton 2023 stops
+https://pokerdb.thehendonmob.com/circuit.php?a=e&n=TRITON&s=2024   | all Triton 2024 stops
+https://pokerdb.thehendonmob.com/circuit.php?a=e&n=TRITON&s=2025   | all Triton 2025 stops
+https://pokerdb.thehendonmob.com/circuit.php?a=e&n=SHRB&s=2023     | all SHRB 2023 events
+https://pokerdb.thehendonmob.com/circuit.php?a=e&n=SHRB&s=2024     | all SHRB 2024 events
+https://pokerdb.thehendonmob.com/circuit.php?a=e&n=SHRB&s=2025     | all SHRB 2025 events
+
+# --- Specific festival indexes for the excluded invitational stops ---
+https://pokerdb.thehendonmob.com/festival.php?a=r&n=51143   | Triton Monte-Carlo (Special Invitational)
+https://pokerdb.thehendonmob.com/festival.php?a=r&n=48989   | Triton London (Invitational)
+https://pokerdb.thehendonmob.com/festival.php?a=r&n=59257   | Triton Montenegro 2024
+https://pokerdb.thehendonmob.com/festival.php?a=r&n=56383   | SHRB Cyprus 2024
+
+# --- Direct payout pages for two target invitationals (confirm the event/year when reviewing) ---
+https://pokerdb.thehendonmob.com/event.php?a=r&n=1112779    | Triton Monte-Carlo "Special Triton Invitational"
+https://pokerdb.thehendonmob.com/event.php?a=r&n=1205657    | Triton Montenegro "Triton Invitational"
+
+# --- WSOP $250k Super High Roller 2024: FULL FIELD (chip counts) + PAYOUTS ---
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/chips.656733.htm  | full field
+https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm       | payouts
+
+# ===================== TIER 2 — full FIELDS (add after Tier 1) =====================
+# Hendon Mob gives payouts (cashers only). For exact net P&L you also need the FULL field
+# (everyone who entered). Get it from:
+#   - PokerGO Tour events (SHRB/Poker Masters/USPO): log into PokerGO, open the event's
+#     live-reporting "Chip Counts" page and add its URL below.
+#   - Other events: pokernews.com -> open the event -> "Chip Counts" tab -> paste that URL.
+# Claude will tell you the exact event URLs to put here after seeing the Tier-1 captures.
