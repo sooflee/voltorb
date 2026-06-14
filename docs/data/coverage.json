@@ -1,12 +1,16 @@
 {
   "summary": {
-    "events_total": 10,
-    "events_included": 4,
+    "events_total": 15,
+    "events_included": 9,
     "events_excluded": 6,
-    "players": 57,
-    "pool_buy_ins_usd": 32644000,
-    "pool_winnings_usd": 31166000,
+    "players": 133,
+    "pool_buy_ins_usd": 137765818,
+    "pool_winnings_usd": 129344617,
     "years": [
+      2016,
+      2018,
+      2019,
+      2022,
       2023,
       2024,
       2025
@@ -15,6 +19,106 @@
     "events_evaluated_excluded": 12
   },
   "included": [
+    {
+      "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+      "name": "Super High Roller Bowl II",
+      "series": "Super High Roller Bowl",
+      "stop": "ARIA Resort & Casino, Las Vegas",
+      "date": "2016-05-29",
+      "year": 2016,
+      "buy_in_usd": 300000,
+      "entries": 49,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://pokerdb.thehendonmob.com/festival.php?a=r&n=18833",
+        "https://www.pokernews.com/tours/super-high-roller-bowl/2016-super-high-roller-bowl/300k-super-high-roller-bowl/post.247259.htm",
+        "https://www.pokernews.com/news/2016/05/2016-shrb-1-24885.htm",
+        "https://www.cardplayer.com/poker-news/20429-rainer-kempe-wins-2016-300-000-buy-in-super-high-roller-bowl",
+        "https://en.wikipedia.org/wiki/Super_High_Roller_Bowl"
+      ]
+    },
+    {
+      "id": "2018-12-17-super-high-roller-bowl-v",
+      "name": "Super High Roller Bowl V",
+      "series": "Super High Roller Bowl",
+      "stop": "Las Vegas (PokerGO Studio, Aria)",
+      "date": "2018-12-17",
+      "year": 2018,
+      "buy_in_usd": 300000,
+      "entries": 36,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://www.pokernews.com/news/2018/12/isaac-haxton-wins-the-super-high-roller-bowl-32967.htm",
+        "https://www.cardplayer.com/poker-news/23489-isaac-haxton-wins-2018-super-high-roller-bowl-v",
+        "https://calvinayre.com/2018/12/19/poker/super-high-roller-bowl-day-rick-salomon-leads-final-27-players",
+        "https://www.poker-king.com/poker-king-articles.php?article=2359",
+        "https://www.onlinepoker.net/poker-news/poker-tournaments-news/isaac-haxton-wins-3-6-million-top-prize-at-super-high-roller-bowl-v/44247"
+      ]
+    },
+    {
+      "id": "2019-08-01-triton-million-london",
+      "name": "Triton Million - A Helping Hand for Charity",
+      "series": "Triton Super High Roller Series",
+      "stop": "London",
+      "date": "2019-08-01",
+      "year": 2019,
+      "buy_in_usd": 1271667,
+      "entries": 54,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://www.pokernews.com/news/2019/08/aaron-zang-wins-triton-million-london-bryn-kenney-second-35036.htm",
+        "https://www.pokernews.com/news/2019/07/facts-and-stats-triton-million-field-34995.htm",
+        "https://calvinayre.com/2019/08/01/poker/triton-million-london-more-records-fall-as-the-headcount-reaches-54",
+        "https://www.pokernews.com/tours/triton/2019-triton-super-high-roller-series-london/triton-million/payouts.htm",
+        "https://triton-series.com/zang-takes-triton-million-title-as-kenney-wins-biggest-ever-prize/"
+      ]
+    },
+    {
+      "id": "2019-09-13-super-high-roller-bowl-london",
+      "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+      "series": "Super High Roller Bowl London",
+      "stop": "London",
+      "date": "2019-09-13",
+      "year": 2019,
+      "buy_in_usd": 312650,
+      "entries": 12,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://www.pokernews.com/news/2019/09/cary-katz-wins-super-high-roller-bowl-london-largest-cash-35412.htm",
+        "https://www.cardplayer.com/poker-news/24274-cary-katz-wins-inaugural-super-high-roller-bowl-london",
+        "https://www.pgt.com/news/cary-katz-wins-super-high-roller-bowl-london-2100000",
+        "https://pokerdb.thehendonmob.com/festival.php?a=r&n=30645",
+        "https://calvinayre.com/2019/09/16/poker/cary-katz-wins-super-high-roller-bowl-london-for-2-1-million"
+      ]
+    },
+    {
+      "id": "2022-10-05-super-high-roller-bowl-vii",
+      "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+      "series": "Super High Roller Bowl",
+      "stop": "Las Vegas",
+      "date": "2022-10-05",
+      "year": 2022,
+      "buy_in_usd": 300000,
+      "entries": 24,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://www.pgt.com/news/super-high-roller-bowl-vii-recap-daniel-negreanu-wins",
+        "https://www.pokerlistings.com/news/negreanu-turns-year-around-after-winning-super-high-roller-bowl-vii-3312000",
+        "https://de.wikipedia.org/wiki/Super_High_Roller_Bowl_VII",
+        "https://pokerdb.thehendonmob.com/festival.php?a=r&n=39483",
+        "https://www.cardplayer.com/poker-tournaments/9762-2022-super-high-roller-bowl-vii/1142451"
+      ]
+    },
     {
       "id": "2023-09-30-shrb-viii",
       "name": "Super High Roller Bowl VIII",

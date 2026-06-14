@@ -1,0 +1,116 @@
+{
+  "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+  "name": "Super High Roller Bowl II",
+  "series": "Super High Roller Bowl",
+  "tour": "Super High Roller Bowl",
+  "stop": "ARIA Resort & Casino, Las Vegas",
+  "location": "Las Vegas, Nevada, USA",
+  "date": "2016-05-29",
+  "year": 2016,
+  "game": "No Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 300000,
+  "currency": "USD",
+  "entries": 49,
+  "unique_entrants": 49,
+  "prize_pool_usd": 15000000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://pokerdb.thehendonmob.com/festival.php?a=r&n=18833",
+    "https://www.pokernews.com/tours/super-high-roller-bowl/2016-super-high-roller-bowl/300k-super-high-roller-bowl/post.247259.htm",
+    "https://www.pokernews.com/news/2016/05/2016-shrb-1-24885.htm",
+    "https://www.cardplayer.com/poker-news/20429-rainer-kempe-wins-2016-300-000-buy-in-super-high-roller-bowl",
+    "https://en.wikipedia.org/wiki/Super_High_Roller_Bowl"
+  ],
+  "notes": "Freezeout, 49 entrants = 49 entries (full field from PokerNews seat-draw preview, 7x7). Buy-ins 49x$300k=$14.7M; Poker Central added $300k overlay to a guaranteed $15,000,000 pool, so total winnings exceed total buy-ins by the overlay. Top 7 paid; Kempe won $5M.",
+  "entrants": [
+    "Timofey Kuznetsov",
+    "Dan Perper",
+    "Matt Berkey",
+    "Cary Katz",
+    "Keith Gipson",
+    "Rainer Kempe",
+    "David Einhorn",
+    "Fedor Holz",
+    "Bill Perkins",
+    "Scott Seiver",
+    "Brandon Steven",
+    "Nick Petrangelo",
+    "Dan Shak",
+    "Byron Kaverman",
+    "Sam Soverel",
+    "Tom Marchese",
+    "Bobby Baldwin",
+    "Jason Les",
+    "Phil Hellmuth",
+    "Justin Bonomo",
+    "Isaac Haxton",
+    "Dominik Nitsche",
+    "Daniel Colman",
+    "Kathy Lehne",
+    "Igor Kurganov",
+    "Bryn Kenney",
+    "Stephen Chidwick",
+    "Dan Smith",
+    "Jason Mercier",
+    "Doug Polk",
+    "Andrew Robl",
+    "Antonio Esfandiari",
+    "Jake Schindler",
+    "Brian Rast",
+    "Ben Tollerene",
+    "Daniel Negreanu",
+    "Ben Lamb",
+    "Christoph Vogelsang",
+    "Pratyush Buddiga",
+    "Haralabos Voulgaris",
+    "Tony Gregg",
+    "Vitaliy Rizhkov",
+    "David Peters",
+    "Erik Seidel",
+    "Phil Laak",
+    "Talal Shakerchi",
+    "Phil Galfond",
+    "Connor Drinan",
+    "John Morgan"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Rainer Kempe",
+      "payout_usd": 5000000
+    },
+    {
+      "place": 2,
+      "player": "Fedor Holz",
+      "payout_usd": 3500000
+    },
+    {
+      "place": 3,
+      "player": "Erik Seidel",
+      "payout_usd": 2400000
+    },
+    {
+      "place": 4,
+      "player": "Phil Hellmuth",
+      "payout_usd": 1600000
+    },
+    {
+      "place": 5,
+      "player": "Matt Berkey",
+      "payout_usd": 1100000
+    },
+    {
+      "place": 6,
+      "player": "Bryn Kenney",
+      "payout_usd": 800000
+    },
+    {
+      "place": 7,
+      "player": "Dan Shak",
+      "payout_usd": 600000
+    }
+  ]
+}

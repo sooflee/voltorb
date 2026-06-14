@@ -1,0 +1,54 @@
+{
+  "id": "2019-09-13-super-high-roller-bowl-london",
+  "name": "Super High Roller Bowl London - £250,000 No-Limit Hold'em Main Event",
+  "series": "Super High Roller Bowl London",
+  "tour": "Super High Roller Bowl",
+  "stop": "London",
+  "location": "Aspers Casino, Stratford, London, United Kingdom",
+  "date": "2019-09-13",
+  "year": 2019,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 312650,
+  "currency": "GBP",
+  "entries": 12,
+  "unique_entrants": 12,
+  "prize_pool_usd": 3751803,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://www.pokernews.com/news/2019/09/cary-katz-wins-super-high-roller-bowl-london-largest-cash-35412.htm",
+    "https://www.cardplayer.com/poker-news/24274-cary-katz-wins-inaugural-super-high-roller-bowl-london",
+    "https://www.pgt.com/news/cary-katz-wins-super-high-roller-bowl-london-2100000",
+    "https://pokerdb.thehendonmob.com/festival.php?a=r&n=30645",
+    "https://calvinayre.com/2019/09/16/poker/cary-katz-wins-super-high-roller-bowl-london-for-2-1-million"
+  ],
+  "notes": "Freezeout, 12 entrants = 12 entries (full field). £250,000 buy-in (~$312,650). Winner-take-most: top 2 paid, reconcile to the $3,751,803 pool. Cary Katz won $2,626,262.",
+  "entrants": [
+    "Cary Katz",
+    "Ali Imsirovic",
+    "Christoph Vogelsang",
+    "Stephen Chidwick",
+    "Michael Addamo",
+    "Bryn Kenney",
+    "Matthias Eibinger",
+    "Timothy Adams",
+    "Darren Elias",
+    "David Peters",
+    "Sam Greenwood",
+    "Mikita Badziakouski"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Cary Katz",
+      "payout_usd": 2626262
+    },
+    {
+      "place": 2,
+      "player": "Ali Imsirovic",
+      "payout_usd": 1125541
+    }
+  ]
+}

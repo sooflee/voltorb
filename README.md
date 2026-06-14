@@ -52,22 +52,32 @@ the entrant list for included events), then writes `docs/data/leaderboard.json` 
 
 ## Current dataset
 
-**Included (4 events, true net P&L):**
+**Included (9 events, true net P&L), all freezeouts with complete named fields:**
 
 | Event | Date | Buy-in | Field |
 |---|---|---|---|
+| Super High Roller Bowl II | May 2016 | $300k | 49 |
+| Super High Roller Bowl V | Dec 2018 | $300k | 36 |
+| Triton Million – London | Aug 2019 | £1.05M | 54 |
+| Super High Roller Bowl London | Sep 2019 | £250k | 12 |
+| Super High Roller Bowl VII | Oct 2022 | $300k | 24 |
 | Super High Roller Bowl VIII | Sep 2023 | $300k | 20 |
 | WPT Big One for One Drop | Dec 2023 | $1.0M | 17 |
 | Super High Roller Bowl IX | Aug 2024 | $306k | 24 |
 | Super High Roller Bowl X | Dec 2025 | $100k | 23 |
 
-Every one has a complete, named field and payouts that reconcile exactly to the published
-prize pool. **Excluded:** 4 events on file + 15 more the field-sweep evaluated and rejected
-(re-entry events / invitationals with late registration whose full fields aren't public) —
-all listed with reasons on the site's Coverage page.
+Every one has a complete, named field and payouts that reconcile to the published prize pool.
+**Excluded:** 6 events on file (full payouts but re-entry / no full roster) + 12 more the
+field-sweep evaluated and rejected — all listed with reasons on the site's Coverage page.
 
-These four events already overlap enough to triangulate: e.g. Nick Petrangelo appears in all
-four (net −$1.71M), Jason Koon in three, Dan Smith in three (+$1.41M).
+With 133 players across 9 events the leaderboard triangulates deeply: e.g. Bryn Kenney
+(8 events, +$18.1M), Stephen Chidwick (8), Nick Petrangelo (8, −$1.86M), Dan Smith
+(7, +$7.95M), Jason Koon (6, −$2.0M).
+
+Why only freezeouts: exact net P&L needs every buy-in, including busts → a complete field.
+That is only knowable for freezeouts (one entry per player). Re-entry events can't be made
+exact even with full scraping — see [`SOURCING.md`](SOURCING.md) and the WSOP $250k test in
+`data/events/2024-06-23-wsop-e55-250k-shr.json`.
 
 ## Expanding the dataset
 

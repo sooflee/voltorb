@@ -1,12 +1,16 @@
 {
   "summary": {
-    "events_total": 10,
-    "events_included": 4,
+    "events_total": 15,
+    "events_included": 9,
     "events_excluded": 6,
-    "players": 57,
-    "pool_buy_ins_usd": 32644000,
-    "pool_winnings_usd": 31166000,
+    "players": 133,
+    "pool_buy_ins_usd": 137765818,
+    "pool_winnings_usd": 129344617,
     "years": [
+      2016,
+      2018,
+      2019,
+      2022,
       2023,
       2024,
       2025
@@ -16,99 +20,63 @@
   },
   "players": [
     {
-      "player": "Mikita Badziakouski",
-      "events_played": 2,
-      "itm": 1,
-      "buy_ins_usd": 1306000,
-      "winnings_usd": 7114500,
-      "net_usd": 5808500,
-      "events": [
-        {
-          "id": "2023-12-18-wpt-big-one-for-one-drop",
-          "name": "WPT Big One for One Drop ($1,000,000)",
-          "date": "2023-12-18",
-          "year": 2023,
-          "buy_in_usd": 1000000,
-          "entries": 1,
-          "winnings_usd": 7114500,
-          "net_usd": 6114500
-        },
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 1,
-      "roi": 4.4475
-    },
-    {
-      "player": "Mario Mosboeck",
-      "events_played": 1,
-      "itm": 1,
-      "buy_ins_usd": 1000000,
-      "winnings_usd": 4663950,
-      "net_usd": 3663950,
-      "events": [
-        {
-          "id": "2023-12-18-wpt-big-one-for-one-drop",
-          "name": "WPT Big One for One Drop ($1,000,000)",
-          "date": "2023-12-18",
-          "year": 2023,
-          "buy_in_usd": 1000000,
-          "entries": 1,
-          "winnings_usd": 4663950,
-          "net_usd": 3663950
-        }
-      ],
-      "rank": 2,
-      "roi": 3.6639
-    },
-    {
-      "player": "Isaac Haxton",
-      "events_played": 2,
+      "player": "Bryn Kenney",
+      "events_played": 8,
       "itm": 2,
-      "buy_ins_usd": 1300000,
-      "winnings_usd": 3984800,
-      "net_usd": 2684800,
+      "buy_ins_usd": 3190317,
+      "winnings_usd": 21337187,
+      "net_usd": 18146870,
       "events": [
         {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
           "buy_in_usd": 300000,
           "entries": 1,
-          "winnings_usd": 2760000,
-          "net_usd": 2460000
+          "winnings_usd": 800000,
+          "net_usd": 500000
         },
         {
-          "id": "2023-12-18-wpt-big-one-for-one-drop",
-          "name": "WPT Big One for One Drop ($1,000,000)",
-          "date": "2023-12-18",
-          "year": 2023,
-          "buy_in_usd": 1000000,
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
           "entries": 1,
-          "winnings_usd": 1224800,
-          "net_usd": 224800
-        }
-      ],
-      "rank": 3,
-      "roi": 2.0652
-    },
-    {
-      "player": "Seth Davies",
-      "events_played": 2,
-      "itm": 1,
-      "buy_ins_usd": 606000,
-      "winnings_usd": 3206000,
-      "net_usd": 2600000,
-      "events": [
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 20537187,
+          "net_usd": 19265520
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
         {
           "id": "2023-09-30-shrb-viii",
           "name": "Super High Roller Bowl VIII",
@@ -126,43 +94,93 @@
           "year": 2024,
           "buy_in_usd": 306000,
           "entries": 1,
-          "winnings_usd": 3206000,
-          "net_usd": 2900000
+          "winnings_usd": 0,
+          "net_usd": -306000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
         }
       ],
-      "rank": 4,
-      "roi": 4.2904
+      "rank": 1,
+      "roi": 5.6881
     },
     {
-      "player": "Juan Pardo",
+      "player": "Aaron Zang",
       "events_played": 1,
       "itm": 1,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 1900000,
-      "net_usd": 1594000,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 16754497,
+      "net_usd": 15482830,
       "events": [
         {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
           "entries": 1,
-          "winnings_usd": 1900000,
-          "net_usd": 1594000
+          "winnings_usd": 16754497,
+          "net_usd": 15482830
         }
       ],
-      "rank": 5,
-      "roi": 5.2092
+      "rank": 2,
+      "roi": 12.1752
     },
     {
       "player": "Dan Smith",
-      "events_played": 3,
-      "itm": 1,
-      "buy_ins_usd": 1400000,
-      "winnings_usd": 2806750,
-      "net_usd": 1406750,
+      "events_played": 7,
+      "itm": 2,
+      "buy_ins_usd": 3571667,
+      "winnings_usd": 11525914,
+      "net_usd": 7954247,
       "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 8719164,
+          "net_usd": 7447497
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
         {
           "id": "2023-09-30-shrb-viii",
           "name": "Super High Roller Bowl VIII",
@@ -194,17 +212,47 @@
           "net_usd": -100000
         }
       ],
-      "rank": 6,
-      "roi": 1.0048
+      "rank": 3,
+      "roi": 2.227
     },
     {
-      "player": "Andrew Lichtenberger",
-      "events_played": 2,
-      "itm": 1,
-      "buy_ins_usd": 400000,
-      "winnings_usd": 1680000,
-      "net_usd": 1280000,
+      "player": "Isaac Haxton",
+      "events_played": 5,
+      "itm": 3,
+      "buy_ins_usd": 2200000,
+      "winnings_usd": 7656800,
+      "net_usd": 5456800,
       "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 3672000,
+          "net_usd": 3372000
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
         {
           "id": "2023-09-30-shrb-viii",
           "name": "Super High Roller Bowl VIII",
@@ -212,380 +260,8 @@
           "year": 2023,
           "buy_in_usd": 300000,
           "entries": 1,
-          "winnings_usd": 1680000,
-          "net_usd": 1380000
-        },
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 7,
-      "roi": 3.2
-    },
-    {
-      "player": "Joao Simao",
-      "events_played": 1,
-      "itm": 1,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 1100000,
-      "net_usd": 1000000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 1100000,
-          "net_usd": 1000000
-        }
-      ],
-      "rank": 8,
-      "roi": 10.0
-    },
-    {
-      "player": "Jeremy Ausmus",
-      "events_played": 2,
-      "itm": 1,
-      "buy_ins_usd": 406000,
-      "winnings_usd": 1200000,
-      "net_usd": 794000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 1200000,
-          "net_usd": 894000
-        },
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 9,
-      "roi": 1.9557
-    },
-    {
-      "player": "Leonard Maue",
-      "events_played": 1,
-      "itm": 1,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 750000,
-      "net_usd": 444000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 750000,
-          "net_usd": 444000
-        }
-      ],
-      "rank": 10,
-      "roi": 1.451
-    },
-    {
-      "player": "Sam Soverel",
-      "events_played": 1,
-      "itm": 1,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 350000,
-      "net_usd": 250000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 350000,
-          "net_usd": 250000
-        }
-      ],
-      "rank": 11,
-      "roi": 2.5
-    },
-    {
-      "player": "Nick Schulman",
-      "events_played": 1,
-      "itm": 1,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 200000,
-      "net_usd": 100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 200000,
-          "net_usd": 100000
-        }
-      ],
-      "rank": 12,
-      "roi": 1.0
-    },
-    {
-      "player": "Jun Obara",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 13,
-      "roi": -1.0
-    },
-    {
-      "player": "Thomas Boivin",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 14,
-      "roi": -1.0
-    },
-    {
-      "player": "Igor Yaroshevskyy",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 15,
-      "roi": -1.0
-    },
-    {
-      "player": "Daniel Rezaei",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 16,
-      "roi": -1.0
-    },
-    {
-      "player": "Jesse Lonis",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 17,
-      "roi": -1.0
-    },
-    {
-      "player": "Brandon Wilson",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 18,
-      "roi": -1.0
-    },
-    {
-      "player": "Ben Tollerene",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 19,
-      "roi": -1.0
-    },
-    {
-      "player": "Umang Dattani",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 20,
-      "roi": -1.0
-    },
-    {
-      "player": "Sam Kiki",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 21,
-      "roi": -1.0
-    },
-    {
-      "player": "David Chen",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 100000,
-      "winnings_usd": 0,
-      "net_usd": -100000,
-      "events": [
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 22,
-      "roi": -1.0
-    },
-    {
-      "player": "Jason Koon",
-      "events_played": 3,
-      "itm": 2,
-      "buy_ins_usd": 1400000,
-      "winnings_usd": 1250000,
-      "net_usd": -150000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 600000,
-          "net_usd": 300000
+          "winnings_usd": 2760000,
+          "net_usd": 2460000
         },
         {
           "id": "2023-12-18-wpt-big-one-for-one-drop",
@@ -594,523 +270,103 @@
           "year": 2023,
           "buy_in_usd": 1000000,
           "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -1000000
-        },
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 650000,
-          "net_usd": 550000
+          "winnings_usd": 1224800,
+          "net_usd": 224800
         }
       ],
-      "rank": 23,
-      "roi": -0.1071
+      "rank": 4,
+      "roi": 2.4804
     },
     {
-      "player": "Justin Bonomo",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 300000,
-      "winnings_usd": 0,
-      "net_usd": -300000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -300000
-        }
-      ],
-      "rank": 24,
-      "roi": -1.0
-    },
-    {
-      "player": "Paul Jager",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 300000,
-      "winnings_usd": 0,
-      "net_usd": -300000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -300000
-        }
-      ],
-      "rank": 25,
-      "roi": -1.0
-    },
-    {
-      "player": "Kristen Foxen",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 300000,
-      "winnings_usd": 0,
-      "net_usd": -300000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -300000
-        }
-      ],
-      "rank": 26,
-      "roi": -1.0
-    },
-    {
-      "player": "Bill Klein",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 300000,
-      "winnings_usd": 0,
-      "net_usd": -300000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -300000
-        }
-      ],
-      "rank": 27,
-      "roi": -1.0
-    },
-    {
-      "player": "Jonathan Jaffe",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 300000,
-      "winnings_usd": 0,
-      "net_usd": -300000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -300000
-        }
-      ],
-      "rank": 28,
-      "roi": -1.0
-    },
-    {
-      "player": "Orpen Kisacikoglu",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 300000,
-      "winnings_usd": 0,
-      "net_usd": -300000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -300000
-        }
-      ],
-      "rank": 29,
-      "roi": -1.0
-    },
-    {
-      "player": "Masashi Oya",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 30,
-      "roi": -1.0
-    },
-    {
-      "player": "Leon Tsoukernik",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 31,
-      "roi": -1.0
-    },
-    {
-      "player": "Artur Martirosian",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 32,
-      "roi": -1.0
-    },
-    {
-      "player": "Daniel Dvoress",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 33,
-      "roi": -1.0
-    },
-    {
-      "player": "Brian Kim",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 34,
-      "roi": -1.0
-    },
-    {
-      "player": "Alex Kulev",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 35,
-      "roi": -1.0
-    },
-    {
-      "player": "Sam Greenwood",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 36,
-      "roi": -1.0
-    },
-    {
-      "player": "Thomas Santerne",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 37,
-      "roi": -1.0
-    },
-    {
-      "player": "Ben Heath",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 38,
-      "roi": -1.0
-    },
-    {
-      "player": "Lewis Spencer",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 39,
-      "roi": -1.0
-    },
-    {
-      "player": "Patrik Antonius",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 40,
-      "roi": -1.0
-    },
-    {
-      "player": "Dejan Kaladjurdjevic",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 41,
-      "roi": -1.0
-    },
-    {
-      "player": "Daniel Negreanu",
+      "player": "Rainer Kempe",
       "events_played": 2,
-      "itm": 0,
-      "buy_ins_usd": 400000,
-      "winnings_usd": 0,
-      "net_usd": -400000,
+      "itm": 1,
+      "buy_ins_usd": 600000,
+      "winnings_usd": 5000000,
+      "net_usd": 4400000,
       "events": [
         {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 5000000,
+          "net_usd": 4700000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
           "buy_in_usd": 300000,
           "entries": 1,
           "winnings_usd": 0,
           "net_usd": -300000
-        },
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
         }
       ],
-      "rank": 42,
-      "roi": -1.0
-    },
-    {
-      "player": "Cary Katz",
-      "events_played": 2,
-      "itm": 0,
-      "buy_ins_usd": 400000,
-      "winnings_usd": 0,
-      "net_usd": -400000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -300000
-        },
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 43,
-      "roi": -1.0
-    },
-    {
-      "player": "Alex Foxen",
-      "events_played": 2,
-      "itm": 0,
-      "buy_ins_usd": 400000,
-      "winnings_usd": 0,
-      "net_usd": -400000,
-      "events": [
-        {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
-          "buy_in_usd": 300000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -300000
-        },
-        {
-          "id": "2025-12-22-shrb-x",
-          "name": "Super High Roller Bowl X",
-          "date": "2025-12-22",
-          "year": 2025,
-          "buy_in_usd": 100000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -100000
-        }
-      ],
-      "rank": 44,
-      "roi": -1.0
+      "rank": 5,
+      "roi": 7.3333
     },
     {
       "player": "Stephen Chidwick",
-      "events_played": 3,
-      "itm": 1,
-      "buy_ins_usd": 1400000,
-      "winnings_usd": 960000,
-      "net_usd": -440000,
+      "events_played": 8,
+      "itm": 3,
+      "buy_ins_usd": 3884317,
+      "winnings_usd": 7812488,
+      "net_usd": 3928171,
       "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 1512000,
+          "net_usd": 1212000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 5340488,
+          "net_usd": 4068821
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
         {
           "id": "2023-09-30-shrb-viii",
           "name": "Super High Roller Bowl VIII",
@@ -1142,17 +398,279 @@
           "net_usd": -100000
         }
       ],
-      "rank": 45,
-      "roi": -0.3143
+      "rank": 6,
+      "roi": 1.0113
     },
     {
-      "player": "Bryn Kenney",
-      "events_played": 3,
-      "itm": 0,
-      "buy_ins_usd": 706000,
-      "winnings_usd": 0,
-      "net_usd": -706000,
+      "player": "Mario Mosboeck",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 1000000,
+      "winnings_usd": 4663950,
+      "net_usd": 3663950,
       "events": [
+        {
+          "id": "2023-12-18-wpt-big-one-for-one-drop",
+          "name": "WPT Big One for One Drop ($1,000,000)",
+          "date": "2023-12-18",
+          "year": 2023,
+          "buy_in_usd": 1000000,
+          "entries": 1,
+          "winnings_usd": 4663950,
+          "net_usd": 3663950
+        }
+      ],
+      "rank": 7,
+      "roi": 3.6639
+    },
+    {
+      "player": "Mikita Badziakouski",
+      "events_played": 6,
+      "itm": 1,
+      "buy_ins_usd": 3490317,
+      "winnings_usd": 7114500,
+      "net_usd": 3624183,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-12-18-wpt-big-one-for-one-drop",
+          "name": "WPT Big One for One Drop ($1,000,000)",
+          "date": "2023-12-18",
+          "year": 2023,
+          "buy_in_usd": 1000000,
+          "entries": 1,
+          "winnings_usd": 7114500,
+          "net_usd": 6114500
+        },
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 8,
+      "roi": 1.0384
+    },
+    {
+      "player": "Vivek Rajkumar",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 3632985,
+      "net_usd": 2361318,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 3632985,
+          "net_usd": 2361318
+        }
+      ],
+      "rank": 9,
+      "roi": 1.8569
+    },
+    {
+      "player": "Andrew Lichtenberger",
+      "events_played": 3,
+      "itm": 2,
+      "buy_ins_usd": 700000,
+      "winnings_usd": 2832000,
+      "net_usd": 2132000,
+      "events": [
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 1152000,
+          "net_usd": 852000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 1680000,
+          "net_usd": 1380000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 10,
+      "roi": 3.0457
+    },
+    {
+      "player": "Erik Seidel",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 2400000,
+      "net_usd": 2100000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 2400000,
+          "net_usd": 2100000
+        }
+      ],
+      "rank": 11,
+      "roi": 7.0
+    },
+    {
+      "player": "Daniel Negreanu",
+      "events_played": 5,
+      "itm": 1,
+      "buy_ins_usd": 1300000,
+      "winnings_usd": 3312000,
+      "net_usd": 2012000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 3312000,
+          "net_usd": 3012000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 12,
+      "roi": 1.5477
+    },
+    {
+      "player": "Seth Davies",
+      "events_played": 4,
+      "itm": 1,
+      "buy_ins_usd": 1206000,
+      "winnings_usd": 3206000,
+      "net_usd": 2000000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
         {
           "id": "2023-09-30-shrb-viii",
           "name": "Super High Roller Bowl VIII",
@@ -1170,8 +688,72 @@
           "year": 2024,
           "buy_in_usd": 306000,
           "entries": 1,
+          "winnings_usd": 3206000,
+          "net_usd": 2900000
+        }
+      ],
+      "rank": 13,
+      "roi": 1.6584
+    },
+    {
+      "player": "Juan Pardo",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 1900000,
+      "net_usd": 1594000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 1900000,
+          "net_usd": 1594000
+        }
+      ],
+      "rank": 14,
+      "roi": 5.2092
+    },
+    {
+      "player": "Alex Foxen",
+      "events_played": 4,
+      "itm": 1,
+      "buy_ins_usd": 1000000,
+      "winnings_usd": 2160000,
+      "net_usd": 1160000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 2160000,
+          "net_usd": 1860000
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
           "winnings_usd": 0,
-          "net_usd": -306000
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
         },
         {
           "id": "2025-12-22-shrb-x",
@@ -1184,17 +766,241 @@
           "net_usd": -100000
         }
       ],
-      "rank": 46,
-      "roi": -1.0
+      "rank": 15,
+      "roi": 1.16
     },
     {
-      "player": "Rick Salomon",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 1000000,
-      "winnings_usd": 0,
-      "net_usd": -1000000,
+      "player": "Bill Perkins",
+      "events_played": 2,
+      "itm": 1,
+      "buy_ins_usd": 1571667,
+      "winnings_usd": 2664189,
+      "net_usd": 1092522,
       "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 2664189,
+          "net_usd": 1392522
+        }
+      ],
+      "rank": 16,
+      "roi": 0.6951
+    },
+    {
+      "player": "Ali Imsirovic",
+      "events_played": 2,
+      "itm": 2,
+      "buy_ins_usd": 612650,
+      "winnings_usd": 1665541,
+      "net_usd": 1052891,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 540000,
+          "net_usd": 240000
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 1125541,
+          "net_usd": 812891
+        }
+      ],
+      "rank": 17,
+      "roi": 1.7186
+    },
+    {
+      "player": "Phil Hellmuth",
+      "events_played": 2,
+      "itm": 1,
+      "buy_ins_usd": 600000,
+      "winnings_usd": 1600000,
+      "net_usd": 1000000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 1600000,
+          "net_usd": 1300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 18,
+      "roi": 1.6667
+    },
+    {
+      "player": "Joao Simao",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 1100000,
+      "net_usd": 1000000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 1100000,
+          "net_usd": 1000000
+        }
+      ],
+      "rank": 19,
+      "roi": 10.0
+    },
+    {
+      "player": "Alfred DeCarolis",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 2082911,
+      "net_usd": 811244,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 2082911,
+          "net_usd": 811244
+        }
+      ],
+      "rank": 20,
+      "roi": 0.6379
+    },
+    {
+      "player": "Matt Berkey",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 1100000,
+      "net_usd": 800000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 1100000,
+          "net_usd": 800000
+        }
+      ],
+      "rank": 21,
+      "roi": 2.6667
+    },
+    {
+      "player": "Jeremy Ausmus",
+      "events_played": 2,
+      "itm": 1,
+      "buy_ins_usd": 406000,
+      "winnings_usd": 1200000,
+      "net_usd": 794000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 1200000,
+          "net_usd": 894000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 22,
+      "roi": 1.9557
+    },
+    {
+      "player": "Fedor Holz",
+      "events_played": 4,
+      "itm": 1,
+      "buy_ins_usd": 2871667,
+      "winnings_usd": 3500000,
+      "net_usd": 628333,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 3500000,
+          "net_usd": 3200000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
         {
           "id": "2023-12-18-wpt-big-one-for-one-drop",
           "name": "WPT Big One for One Drop ($1,000,000)",
@@ -1204,95 +1010,1645 @@
           "entries": 1,
           "winnings_usd": 0,
           "net_usd": -1000000
+        }
+      ],
+      "rank": 23,
+      "roi": 0.2188
+    },
+    {
+      "player": "Leonard Maue",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 750000,
+      "net_usd": 444000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 750000,
+          "net_usd": 444000
+        }
+      ],
+      "rank": 24,
+      "roi": 1.451
+    },
+    {
+      "player": "Dan Shak",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 600000,
+      "net_usd": 300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 600000,
+          "net_usd": 300000
+        }
+      ],
+      "rank": 25,
+      "roi": 1.0
+    },
+    {
+      "player": "Timothy Adams",
+      "events_played": 2,
+      "itm": 1,
+      "buy_ins_usd": 1584317,
+      "winnings_usd": 1695393,
+      "net_usd": 111076,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 1695393,
+          "net_usd": 423726
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        }
+      ],
+      "rank": 26,
+      "roi": 0.0701
+    },
+    {
+      "player": "Nick Schulman",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 200000,
+      "net_usd": 100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 200000,
+          "net_usd": 100000
+        }
+      ],
+      "rank": 27,
+      "roi": 1.0
+    },
+    {
+      "player": "Jun Obara",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 28,
+      "roi": -1.0
+    },
+    {
+      "player": "Thomas Boivin",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 29,
+      "roi": -1.0
+    },
+    {
+      "player": "Igor Yaroshevskyy",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 30,
+      "roi": -1.0
+    },
+    {
+      "player": "Daniel Rezaei",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 31,
+      "roi": -1.0
+    },
+    {
+      "player": "Jesse Lonis",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 32,
+      "roi": -1.0
+    },
+    {
+      "player": "Brandon Wilson",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 33,
+      "roi": -1.0
+    },
+    {
+      "player": "Umang Dattani",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 34,
+      "roi": -1.0
+    },
+    {
+      "player": "Sam Kiki",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 35,
+      "roi": -1.0
+    },
+    {
+      "player": "David Chen",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 36,
+      "roi": -1.0
+    },
+    {
+      "player": "Cary Katz",
+      "events_played": 7,
+      "itm": 1,
+      "buy_ins_usd": 2884317,
+      "winnings_usd": 2626262,
+      "net_usd": -258055,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 2626262,
+          "net_usd": 2313612
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 37,
+      "roi": -0.0895
+    },
+    {
+      "player": "Dan Perper",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 38,
+      "roi": -1.0
+    },
+    {
+      "player": "Keith Gipson",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 39,
+      "roi": -1.0
+    },
+    {
+      "player": "Scott Seiver",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 40,
+      "roi": -1.0
+    },
+    {
+      "player": "Brandon Steven",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 41,
+      "roi": -1.0
+    },
+    {
+      "player": "Byron Kaverman",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 42,
+      "roi": -1.0
+    },
+    {
+      "player": "Tom Marchese",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 43,
+      "roi": -1.0
+    },
+    {
+      "player": "Jason Les",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 44,
+      "roi": -1.0
+    },
+    {
+      "player": "Daniel Colman",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 45,
+      "roi": -1.0
+    },
+    {
+      "player": "Kathy Lehne",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 46,
+      "roi": -1.0
+    },
+    {
+      "player": "Jason Mercier",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
         }
       ],
       "rank": 47,
       "roi": -1.0
     },
     {
-      "player": "Fedor Holz",
+      "player": "Doug Polk",
       "events_played": 1,
       "itm": 0,
-      "buy_ins_usd": 1000000,
+      "buy_ins_usd": 300000,
       "winnings_usd": 0,
-      "net_usd": -1000000,
+      "net_usd": -300000,
       "events": [
         {
-          "id": "2023-12-18-wpt-big-one-for-one-drop",
-          "name": "WPT Big One for One Drop ($1,000,000)",
-          "date": "2023-12-18",
-          "year": 2023,
-          "buy_in_usd": 1000000,
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
           "entries": 1,
           "winnings_usd": 0,
-          "net_usd": -1000000
+          "net_usd": -300000
         }
       ],
       "rank": 48,
       "roi": -1.0
     },
     {
-      "player": "David Einhorn",
+      "player": "Antonio Esfandiari",
       "events_played": 1,
       "itm": 0,
-      "buy_ins_usd": 1000000,
+      "buy_ins_usd": 300000,
       "winnings_usd": 0,
-      "net_usd": -1000000,
+      "net_usd": -300000,
       "events": [
         {
-          "id": "2023-12-18-wpt-big-one-for-one-drop",
-          "name": "WPT Big One for One Drop ($1,000,000)",
-          "date": "2023-12-18",
-          "year": 2023,
-          "buy_in_usd": 1000000,
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
           "entries": 1,
           "winnings_usd": 0,
-          "net_usd": -1000000
+          "net_usd": -300000
         }
       ],
       "rank": 49,
       "roi": -1.0
     },
     {
-      "player": "Chris Brewer",
-      "events_played": 2,
+      "player": "Ben Lamb",
+      "events_played": 1,
       "itm": 0,
-      "buy_ins_usd": 1300000,
+      "buy_ins_usd": 300000,
       "winnings_usd": 0,
-      "net_usd": -1300000,
+      "net_usd": -300000,
       "events": [
         {
-          "id": "2023-09-30-shrb-viii",
-          "name": "Super High Roller Bowl VIII",
-          "date": "2023-09-30",
-          "year": 2023,
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
           "buy_in_usd": 300000,
           "entries": 1,
           "winnings_usd": 0,
           "net_usd": -300000
-        },
-        {
-          "id": "2023-12-18-wpt-big-one-for-one-drop",
-          "name": "WPT Big One for One Drop ($1,000,000)",
-          "date": "2023-12-18",
-          "year": 2023,
-          "buy_in_usd": 1000000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -1000000
         }
       ],
       "rank": 50,
       "roi": -1.0
     },
     {
-      "player": "Talal Shakerchi",
+      "player": "Pratyush Buddiga",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 51,
+      "roi": -1.0
+    },
+    {
+      "player": "Tony Gregg",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 52,
+      "roi": -1.0
+    },
+    {
+      "player": "Vitaliy Rizhkov",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 53,
+      "roi": -1.0
+    },
+    {
+      "player": "Phil Laak",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 54,
+      "roi": -1.0
+    },
+    {
+      "player": "Phil Galfond",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 55,
+      "roi": -1.0
+    },
+    {
+      "player": "Connor Drinan",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 56,
+      "roi": -1.0
+    },
+    {
+      "player": "John Morgan",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 57,
+      "roi": -1.0
+    },
+    {
+      "player": "Chris Kruk",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 58,
+      "roi": -1.0
+    },
+    {
+      "player": "Koray Aldemir",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 59,
+      "roi": -1.0
+    },
+    {
+      "player": "Steffen Sontheimer",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 60,
+      "roi": -1.0
+    },
+    {
+      "player": "Giuseppe Iadisernia",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 61,
+      "roi": -1.0
+    },
+    {
+      "player": "Ben Yu",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 62,
+      "roi": -1.0
+    },
+    {
+      "player": "Eric Worre",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 63,
+      "roi": -1.0
+    },
+    {
+      "player": "Kristen Foxen",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 64,
+      "roi": -1.0
+    },
+    {
+      "player": "Jonathan Jaffe",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 300000,
+      "winnings_usd": 0,
+      "net_usd": -300000,
+      "events": [
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 65,
+      "roi": -1.0
+    },
+    {
+      "player": "Masashi Oya",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 66,
+      "roi": -1.0
+    },
+    {
+      "player": "Artur Martirosian",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 67,
+      "roi": -1.0
+    },
+    {
+      "player": "Daniel Dvoress",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 68,
+      "roi": -1.0
+    },
+    {
+      "player": "Brian Kim",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 69,
+      "roi": -1.0
+    },
+    {
+      "player": "Alex Kulev",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 70,
+      "roi": -1.0
+    },
+    {
+      "player": "Thomas Santerne",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 71,
+      "roi": -1.0
+    },
+    {
+      "player": "Ben Heath",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 72,
+      "roi": -1.0
+    },
+    {
+      "player": "Lewis Spencer",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 73,
+      "roi": -1.0
+    },
+    {
+      "player": "Patrik Antonius",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 74,
+      "roi": -1.0
+    },
+    {
+      "player": "Dejan Kaladjurdjevic",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 75,
+      "roi": -1.0
+    },
+    {
+      "player": "Darren Elias",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 312650,
+      "winnings_usd": 0,
+      "net_usd": -312650,
+      "events": [
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        }
+      ],
+      "rank": 76,
+      "roi": -1.0
+    },
+    {
+      "player": "Sam Soverel",
+      "events_played": 3,
+      "itm": 1,
+      "buy_ins_usd": 700000,
+      "winnings_usd": 350000,
+      "net_usd": -350000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 350000,
+          "net_usd": 250000
+        }
+      ],
+      "rank": 77,
+      "roi": -0.5
+    },
+    {
+      "player": "Dominik Nitsche",
       "events_played": 2,
       "itm": 0,
-      "buy_ins_usd": 1300000,
+      "buy_ins_usd": 600000,
       "winnings_usd": 0,
-      "net_usd": -1300000,
+      "net_usd": -600000,
       "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 78,
+      "roi": -1.0
+    },
+    {
+      "player": "Jake Schindler",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 600000,
+      "winnings_usd": 0,
+      "net_usd": -600000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 79,
+      "roi": -1.0
+    },
+    {
+      "player": "Brian Rast",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 600000,
+      "winnings_usd": 0,
+      "net_usd": -600000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 80,
+      "roi": -1.0
+    },
+    {
+      "player": "Sean Winter",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 600000,
+      "winnings_usd": 0,
+      "net_usd": -600000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 81,
+      "roi": -1.0
+    },
+    {
+      "player": "Paul Jager",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 600000,
+      "winnings_usd": 0,
+      "net_usd": -600000,
+      "events": [
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 82,
+      "roi": -1.0
+    },
+    {
+      "player": "Michael Addamo",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 612650,
+      "winnings_usd": 0,
+      "net_usd": -612650,
+      "events": [
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 83,
+      "roi": -1.0
+    },
+    {
+      "player": "Bill Klein",
+      "events_played": 3,
+      "itm": 0,
+      "buy_ins_usd": 900000,
+      "winnings_usd": 0,
+      "net_usd": -900000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 84,
+      "roi": -1.0
+    },
+    {
+      "player": "Ben Tollerene",
+      "events_played": 4,
+      "itm": 0,
+      "buy_ins_usd": 1000000,
+      "winnings_usd": 0,
+      "net_usd": -1000000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 85,
+      "roi": -1.0
+    },
+    {
+      "player": "Igor Kurganov",
+      "events_played": 3,
+      "itm": 1,
+      "buy_ins_usd": 1871667,
+      "winnings_usd": 756000,
+      "net_usd": -1115667,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 756000,
+          "net_usd": 456000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 86,
+      "roi": -0.5961
+    },
+    {
+      "player": "Adrian Mateos",
+      "events_played": 5,
+      "itm": 1,
+      "buy_ins_usd": 2206000,
+      "winnings_usd": 972000,
+      "net_usd": -1234000,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 972000,
+          "net_usd": 672000
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
         {
           "id": "2023-09-30-shrb-viii",
           "name": "Super High Roller Bowl VIII",
@@ -1312,9 +2668,601 @@
           "entries": 1,
           "winnings_usd": 0,
           "net_usd": -1000000
+        },
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
         }
       ],
-      "rank": 51,
+      "rank": 87,
+      "roi": -0.5594
+    },
+    {
+      "player": "Paul Phua",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 88,
+      "roi": -1.0
+    },
+    {
+      "player": "Tom Dwan",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 89,
+      "roi": -1.0
+    },
+    {
+      "player": "Richard Yong",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 90,
+      "roi": -1.0
+    },
+    {
+      "player": "Stanley Choi",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 91,
+      "roi": -1.0
+    },
+    {
+      "player": "Wai Kin Yong",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 92,
+      "roi": -1.0
+    },
+    {
+      "player": "Rui Cao",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 93,
+      "roi": -1.0
+    },
+    {
+      "player": "Liang Yu",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 94,
+      "roi": -1.0
+    },
+    {
+      "player": "Ivan Leow",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 95,
+      "roi": -1.0
+    },
+    {
+      "player": "Rob Yong",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 96,
+      "roi": -1.0
+    },
+    {
+      "player": "Sam Trickett",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 97,
+      "roi": -1.0
+    },
+    {
+      "player": "Chin Wei Lim",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 98,
+      "roi": -1.0
+    },
+    {
+      "player": "Wai Leong Chan",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 99,
+      "roi": -1.0
+    },
+    {
+      "player": "Chow Hing Yaung",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 100,
+      "roi": -1.0
+    },
+    {
+      "player": "Pat Madden",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 101,
+      "roi": -1.0
+    },
+    {
+      "player": "Sosia Jiang",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 102,
+      "roi": -1.0
+    },
+    {
+      "player": "Qiang Wang",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 103,
+      "roi": -1.0
+    },
+    {
+      "player": "Elton Tsang",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 104,
+      "roi": -1.0
+    },
+    {
+      "player": "Tan Xuan",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 105,
+      "roi": -1.0
+    },
+    {
+      "player": "Antanas Guoga",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 106,
+      "roi": -1.0
+    },
+    {
+      "player": "Ferdinand Putra",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 107,
+      "roi": -1.0
+    },
+    {
+      "player": "Andrew Pantling",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 108,
+      "roi": -1.0
+    },
+    {
+      "player": "Winfred Yu",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 109,
+      "roi": -1.0
+    },
+    {
+      "player": "Danny Tang",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 110,
+      "roi": -1.0
+    },
+    {
+      "player": "Ben Wu",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 111,
+      "roi": -1.0
+    },
+    {
+      "player": "Michael Soyza",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 1271667,
+      "winnings_usd": 0,
+      "net_usd": -1271667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 112,
+      "roi": -1.0
+    },
+    {
+      "player": "David Einhorn",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 1300000,
+      "winnings_usd": 0,
+      "net_usd": -1300000,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-12-18-wpt-big-one-for-one-drop",
+          "name": "WPT Big One for One Drop ($1,000,000)",
+          "date": "2023-12-18",
+          "year": 2023,
+          "buy_in_usd": 1000000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1000000
+        }
+      ],
+      "rank": 113,
       "roi": -1.0
     },
     {
@@ -1346,71 +3294,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 52,
-      "roi": -1.0
-    },
-    {
-      "player": "Matthias Eibinger",
-      "events_played": 2,
-      "itm": 0,
-      "buy_ins_usd": 1306000,
-      "winnings_usd": 0,
-      "net_usd": -1306000,
-      "events": [
-        {
-          "id": "2023-12-18-wpt-big-one-for-one-drop",
-          "name": "WPT Big One for One Drop ($1,000,000)",
-          "date": "2023-12-18",
-          "year": 2023,
-          "buy_in_usd": 1000000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -1000000
-        },
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 53,
-      "roi": -1.0
-    },
-    {
-      "player": "Martin Kabrhel",
-      "events_played": 2,
-      "itm": 0,
-      "buy_ins_usd": 1306000,
-      "winnings_usd": 0,
-      "net_usd": -1306000,
-      "events": [
-        {
-          "id": "2023-12-18-wpt-big-one-for-one-drop",
-          "name": "WPT Big One for One Drop ($1,000,000)",
-          "date": "2023-12-18",
-          "year": 2023,
-          "buy_in_usd": 1000000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -1000000
-        },
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 54,
+      "rank": 114,
       "roi": -1.0
     },
     {
@@ -1442,17 +3326,219 @@
           "net_usd": -306000
         }
       ],
-      "rank": 55,
+      "rank": 115,
       "roi": -1.0
     },
     {
-      "player": "Adrian Mateos",
+      "player": "Timofey Kuznetsov",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 1571667,
+      "winnings_usd": 0,
+      "net_usd": -1571667,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 116,
+      "roi": -1.0
+    },
+    {
+      "player": "Bobby Baldwin",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 1571667,
+      "winnings_usd": 0,
+      "net_usd": -1571667,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 117,
+      "roi": -1.0
+    },
+    {
+      "player": "Andrew Robl",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 1571667,
+      "winnings_usd": 0,
+      "net_usd": -1571667,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 118,
+      "roi": -1.0
+    },
+    {
+      "player": "Haralabos Voulgaris",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 1571667,
+      "winnings_usd": 0,
+      "net_usd": -1571667,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 119,
+      "roi": -1.0
+    },
+    {
+      "player": "Daniel Cates",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 1571667,
+      "winnings_usd": 0,
+      "net_usd": -1571667,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        }
+      ],
+      "rank": 120,
+      "roi": -1.0
+    },
+    {
+      "player": "Leon Tsoukernik",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 1577667,
+      "winnings_usd": 0,
+      "net_usd": -1577667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 121,
+      "roi": -1.0
+    },
+    {
+      "player": "Chris Brewer",
       "events_played": 3,
       "itm": 0,
-      "buy_ins_usd": 1606000,
+      "buy_ins_usd": 1600000,
       "winnings_usd": 0,
-      "net_usd": -1606000,
+      "net_usd": -1600000,
       "events": [
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
         {
           "id": "2023-09-30-shrb-viii",
           "name": "Super High Roller Bowl VIII",
@@ -1472,29 +3558,121 @@
           "entries": 1,
           "winnings_usd": 0,
           "net_usd": -1000000
-        },
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
         }
       ],
-      "rank": 56,
+      "rank": 122,
       "roi": -1.0
     },
     {
-      "player": "Nick Petrangelo",
-      "events_played": 4,
-      "itm": 0,
-      "buy_ins_usd": 1706000,
-      "winnings_usd": 0,
-      "net_usd": -1706000,
+      "player": "Justin Bonomo",
+      "events_played": 5,
+      "itm": 1,
+      "buy_ins_usd": 2471667,
+      "winnings_usd": 720000,
+      "net_usd": -1751667,
       "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 720000,
+          "net_usd": 420000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 123,
+      "roi": -0.7087
+    },
+    {
+      "player": "Nick Petrangelo",
+      "events_played": 8,
+      "itm": 1,
+      "buy_ins_usd": 3877667,
+      "winnings_usd": 2016000,
+      "net_usd": -1861667,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 2016000,
+          "net_usd": 1716000
+        },
         {
           "id": "2023-09-30-shrb-viii",
           "name": "Super High Roller Bowl VIII",
@@ -1536,7 +3714,495 @@
           "net_usd": -100000
         }
       ],
-      "rank": 57,
+      "rank": 124,
+      "roi": -0.4801
+    },
+    {
+      "player": "Orpen Kisacikoglu",
+      "events_played": 3,
+      "itm": 0,
+      "buy_ins_usd": 1871667,
+      "winnings_usd": 0,
+      "net_usd": -1871667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 125,
+      "roi": -1.0
+    },
+    {
+      "player": "Sam Greenwood",
+      "events_played": 3,
+      "itm": 0,
+      "buy_ins_usd": 1890317,
+      "winnings_usd": 0,
+      "net_usd": -1890317,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        },
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 126,
+      "roi": -1.0
+    },
+    {
+      "player": "Jason Koon",
+      "events_played": 6,
+      "itm": 2,
+      "buy_ins_usd": 3271667,
+      "winnings_usd": 1250000,
+      "net_usd": -2021667,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 600000,
+          "net_usd": 300000
+        },
+        {
+          "id": "2023-12-18-wpt-big-one-for-one-drop",
+          "name": "WPT Big One for One Drop ($1,000,000)",
+          "date": "2023-12-18",
+          "year": 2023,
+          "buy_in_usd": 1000000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1000000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 650000,
+          "net_usd": 550000
+        }
+      ],
+      "rank": 127,
+      "roi": -0.6179
+    },
+    {
+      "player": "Christoph Vogelsang",
+      "events_played": 4,
+      "itm": 0,
+      "buy_ins_usd": 2184317,
+      "winnings_usd": 0,
+      "net_usd": -2184317,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        }
+      ],
+      "rank": 128,
+      "roi": -1.0
+    },
+    {
+      "player": "Talal Shakerchi",
+      "events_played": 6,
+      "itm": 1,
+      "buy_ins_usd": 3471667,
+      "winnings_usd": 1188000,
+      "net_usd": -2283667,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 1188000,
+          "net_usd": 888000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-09-30-shrb-viii",
+          "name": "Super High Roller Bowl VIII",
+          "date": "2023-09-30",
+          "year": 2023,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2023-12-18-wpt-big-one-for-one-drop",
+          "name": "WPT Big One for One Drop ($1,000,000)",
+          "date": "2023-12-18",
+          "year": 2023,
+          "buy_in_usd": 1000000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1000000
+        }
+      ],
+      "rank": 129,
+      "roi": -0.6578
+    },
+    {
+      "player": "David Peters",
+      "events_played": 5,
+      "itm": 0,
+      "buy_ins_usd": 2484317,
+      "winnings_usd": 0,
+      "net_usd": -2484317,
+      "events": [
+        {
+          "id": "2016-05-29-super-high-roller-bowl-ii-aria",
+          "name": "Super High Roller Bowl II",
+          "date": "2016-05-29",
+          "year": 2016,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        },
+        {
+          "id": "2022-10-05-super-high-roller-bowl-vii",
+          "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+          "date": "2022-10-05",
+          "year": 2022,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        }
+      ],
+      "rank": 130,
+      "roi": -1.0
+    },
+    {
+      "player": "Rick Salomon",
+      "events_played": 3,
+      "itm": 0,
+      "buy_ins_usd": 2571667,
+      "winnings_usd": 0,
+      "net_usd": -2571667,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2023-12-18-wpt-big-one-for-one-drop",
+          "name": "WPT Big One for One Drop ($1,000,000)",
+          "date": "2023-12-18",
+          "year": 2023,
+          "buy_in_usd": 1000000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1000000
+        }
+      ],
+      "rank": 131,
+      "roi": -1.0
+    },
+    {
+      "player": "Martin Kabrhel",
+      "events_played": 3,
+      "itm": 0,
+      "buy_ins_usd": 2577667,
+      "winnings_usd": 0,
+      "net_usd": -2577667,
+      "events": [
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2023-12-18-wpt-big-one-for-one-drop",
+          "name": "WPT Big One for One Drop ($1,000,000)",
+          "date": "2023-12-18",
+          "year": 2023,
+          "buy_in_usd": 1000000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1000000
+        },
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 132,
+      "roi": -1.0
+    },
+    {
+      "player": "Matthias Eibinger",
+      "events_played": 5,
+      "itm": 0,
+      "buy_ins_usd": 3190317,
+      "winnings_usd": 0,
+      "net_usd": -3190317,
+      "events": [
+        {
+          "id": "2018-12-17-super-high-roller-bowl-v",
+          "name": "Super High Roller Bowl V",
+          "date": "2018-12-17",
+          "year": 2018,
+          "buy_in_usd": 300000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -300000
+        },
+        {
+          "id": "2019-08-01-triton-million-london",
+          "name": "Triton Million - A Helping Hand for Charity",
+          "date": "2019-08-01",
+          "year": 2019,
+          "buy_in_usd": 1271667,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1271667
+        },
+        {
+          "id": "2019-09-13-super-high-roller-bowl-london",
+          "name": "Super High Roller Bowl London - \u00a3250,000 No-Limit Hold'em Main Event",
+          "date": "2019-09-13",
+          "year": 2019,
+          "buy_in_usd": 312650,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -312650
+        },
+        {
+          "id": "2023-12-18-wpt-big-one-for-one-drop",
+          "name": "WPT Big One for One Drop ($1,000,000)",
+          "date": "2023-12-18",
+          "year": 2023,
+          "buy_in_usd": 1000000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -1000000
+        },
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 133,
       "roi": -1.0
     }
   ]

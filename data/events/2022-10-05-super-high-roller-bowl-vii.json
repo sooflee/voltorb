@@ -1,0 +1,76 @@
+{
+  "id": "2022-10-05-super-high-roller-bowl-vii",
+  "name": "Super High Roller Bowl VII - $300,000 No-Limit Hold'em",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO Tour",
+  "stop": "Las Vegas",
+  "location": "PokerGO Studio, ARIA Resort & Casino, Las Vegas, Nevada, USA",
+  "date": "2022-10-05",
+  "year": 2022,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 300000,
+  "currency": "USD",
+  "entries": 24,
+  "unique_entrants": 24,
+  "prize_pool_usd": 7200000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://www.pgt.com/news/super-high-roller-bowl-vii-recap-daniel-negreanu-wins",
+    "https://www.pokerlistings.com/news/negreanu-turns-year-around-after-winning-super-high-roller-bowl-vii-3312000",
+    "https://de.wikipedia.org/wiki/Super_High_Roller_Bowl_VII",
+    "https://pokerdb.thehendonmob.com/festival.php?a=r&n=39483",
+    "https://www.cardplayer.com/poker-tournaments/9762-2022-super-high-roller-bowl-vii/1142451"
+  ],
+  "notes": "Freezeout, 24 entrants = 24 entries (full field). 24x$300k=$7,200,000 pool; top 4 paid; payouts reconcile exactly. Daniel Negreanu won $3,312,000. Direct predecessor to SHRB VIII (2023).",
+  "entrants": [
+    "Michael Addamo",
+    "Mikita Badziakouski",
+    "Justin Bonomo",
+    "Chris Brewer",
+    "Stephen Chidwick",
+    "Seth Davies",
+    "Alex Foxen",
+    "Isaac Haxton",
+    "Paul Jager",
+    "Cary Katz",
+    "Bryn Kenney",
+    "Orpen Kisacikoglu",
+    "Bill Klein",
+    "Jason Koon",
+    "Andrew Lichtenberger",
+    "Adrian Mateos",
+    "Daniel Negreanu",
+    "David Peters",
+    "Nick Petrangelo",
+    "Talal Shakerchi",
+    "Dan Smith",
+    "Ben Tollerene",
+    "Sean Winter",
+    "Eric Worre"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Daniel Negreanu",
+      "payout_usd": 3312000
+    },
+    {
+      "place": 2,
+      "player": "Nick Petrangelo",
+      "payout_usd": 2016000
+    },
+    {
+      "place": 3,
+      "player": "Andrew Lichtenberger",
+      "payout_usd": 1152000
+    },
+    {
+      "place": 4,
+      "player": "Justin Bonomo",
+      "payout_usd": 720000
+    }
+  ]
+}

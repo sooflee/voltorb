@@ -1,0 +1,103 @@
+{
+  "id": "2018-12-17-super-high-roller-bowl-v",
+  "name": "Super High Roller Bowl V",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO / Poker Central",
+  "stop": "Las Vegas (PokerGO Studio, Aria)",
+  "location": "Las Vegas, Nevada, USA",
+  "date": "2018-12-17",
+  "year": 2018,
+  "game": "No Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 300000,
+  "currency": "USD",
+  "entries": 36,
+  "unique_entrants": 36,
+  "prize_pool_usd": 10800000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://www.pokernews.com/news/2018/12/isaac-haxton-wins-the-super-high-roller-bowl-32967.htm",
+    "https://www.cardplayer.com/poker-news/23489-isaac-haxton-wins-2018-super-high-roller-bowl-v",
+    "https://calvinayre.com/2018/12/19/poker/super-high-roller-bowl-day-rick-salomon-leads-final-27-players",
+    "https://www.poker-king.com/poker-king-articles.php?article=2359",
+    "https://www.onlinepoker.net/poker-news/poker-tournaments-news/isaac-haxton-wins-3-6-million-top-prize-at-super-high-roller-bowl-v/44247"
+  ],
+  "notes": "Freezeout, 36 entrants = 36 entries (full field). 36x$300k=$10,800,000 pool; top 7 paid; payouts reconcile exactly. Isaac Haxton won $3,672,000.",
+  "entrants": [
+    "Isaac Haxton",
+    "Alex Foxen",
+    "Stephen Chidwick",
+    "Talal Shakerchi",
+    "Adrian Mateos",
+    "Igor Kurganov",
+    "Ali Imsirovic",
+    "Mikita Badziakouski",
+    "Rick Salomon",
+    "Daniel Negreanu",
+    "Nick Petrangelo",
+    "Seth Davies",
+    "Bryn Kenney",
+    "David Peters",
+    "Sean Winter",
+    "Justin Bonomo",
+    "Fedor Holz",
+    "Phil Hellmuth",
+    "Brian Rast",
+    "Daniel Cates",
+    "Matthias Eibinger",
+    "Sam Soverel",
+    "Chris Kruk",
+    "Koray Aldemir",
+    "Jason Koon",
+    "Dan Smith",
+    "Ben Tollerene",
+    "Steffen Sontheimer",
+    "Giuseppe Iadisernia",
+    "Jake Schindler",
+    "Christoph Vogelsang",
+    "Rainer Kempe",
+    "Ben Yu",
+    "Dominik Nitsche",
+    "Bill Klein",
+    "Cary Katz"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Isaac Haxton",
+      "payout_usd": 3672000
+    },
+    {
+      "place": 2,
+      "player": "Alex Foxen",
+      "payout_usd": 2160000
+    },
+    {
+      "place": 3,
+      "player": "Stephen Chidwick",
+      "payout_usd": 1512000
+    },
+    {
+      "place": 4,
+      "player": "Talal Shakerchi",
+      "payout_usd": 1188000
+    },
+    {
+      "place": 5,
+      "player": "Adrian Mateos",
+      "payout_usd": 972000
+    },
+    {
+      "place": 6,
+      "player": "Igor Kurganov",
+      "payout_usd": 756000
+    },
+    {
+      "place": 7,
+      "player": "Ali Imsirovic",
+      "payout_usd": 540000
+    }
+  ]
+}

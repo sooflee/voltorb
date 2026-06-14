@@ -1,0 +1,126 @@
+{
+  "id": "2019-08-01-triton-million-london",
+  "name": "Triton Million - A Helping Hand for Charity",
+  "series": "Triton Super High Roller Series",
+  "tour": "Triton Poker",
+  "stop": "London",
+  "location": "London, United Kingdom",
+  "date": "2019-08-01",
+  "year": 2019,
+  "game": "No Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 1271667,
+  "currency": "GBP",
+  "entries": 54,
+  "unique_entrants": 54,
+  "prize_pool_usd": 65400000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://www.pokernews.com/news/2019/08/aaron-zang-wins-triton-million-london-bryn-kenney-second-35036.htm",
+    "https://www.pokernews.com/news/2019/07/facts-and-stats-triton-million-field-34995.htm",
+    "https://calvinayre.com/2019/08/01/poker/triton-million-london-more-records-fall-as-the-headcount-reaches-54",
+    "https://www.pokernews.com/tours/triton/2019-triton-super-high-roller-series-london/triton-million/payouts.htm",
+    "https://triton-series.com/zang-takes-triton-million-title-as-kenney-wins-biggest-ever-prize/"
+  ],
+  "notes": "Freezeout (single entry; confirmed by partypoker LIVE FAQ). 54 entrants = 54 entries, full field cross-checked (CalvinAyre 27 pairs vs PokerNews field list). Buy-in £1,050,000 = ~$1,271,667 (incl. £50k/player charity outside the £54M=$65.4M pool); payouts are the reported USD figures (Kenney's $20,537,187 runner-up via HU deal is the largest poker payout ever). Net P&L reflects the full £1.05M outlay.",
+  "entrants": [
+    "Paul Phua",
+    "Tom Dwan",
+    "Richard Yong",
+    "Daniel Cates",
+    "Stanley Choi",
+    "David Peters",
+    "Wai Kin Yong",
+    "Rui Cao",
+    "Bobby Baldwin",
+    "Jason Koon",
+    "Cary Katz",
+    "Bryn Kenney",
+    "Liang Yu",
+    "Mikita Badziakouski",
+    "Ivan Leow",
+    "Timofey Kuznetsov",
+    "Rob Yong",
+    "Sam Trickett",
+    "Alfred DeCarolis",
+    "Stephen Chidwick",
+    "Chin Wei Lim",
+    "Wai Leong Chan",
+    "Chow Hing Yaung",
+    "Christoph Vogelsang",
+    "Pat Madden",
+    "Nick Petrangelo",
+    "Talal Shakerchi",
+    "Igor Kurganov",
+    "Sosia Jiang",
+    "Sam Greenwood",
+    "Qiang Wang",
+    "Elton Tsang",
+    "Aaron Zang",
+    "Tan Xuan",
+    "Antanas Guoga",
+    "Fedor Holz",
+    "Leon Tsoukernik",
+    "Martin Kabrhel",
+    "Orpen Kisacikoglu",
+    "Matthias Eibinger",
+    "Ferdinand Putra",
+    "Justin Bonomo",
+    "Andrew Pantling",
+    "Andrew Robl",
+    "Bill Perkins",
+    "Dan Smith",
+    "Winfred Yu",
+    "Danny Tang",
+    "Ben Wu",
+    "Michael Soyza",
+    "Haralabos Voulgaris",
+    "Timothy Adams",
+    "Rick Salomon",
+    "Vivek Rajkumar"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Aaron Zang",
+      "payout_usd": 16754497
+    },
+    {
+      "place": 2,
+      "player": "Bryn Kenney",
+      "payout_usd": 20537187
+    },
+    {
+      "place": 3,
+      "player": "Dan Smith",
+      "payout_usd": 8719164
+    },
+    {
+      "place": 4,
+      "player": "Stephen Chidwick",
+      "payout_usd": 5340488
+    },
+    {
+      "place": 5,
+      "player": "Vivek Rajkumar",
+      "payout_usd": 3632985
+    },
+    {
+      "place": 6,
+      "player": "Bill Perkins",
+      "payout_usd": 2664189
+    },
+    {
+      "place": 7,
+      "player": "Alfred DeCarolis",
+      "payout_usd": 2082911
+    },
+    {
+      "place": 8,
+      "player": "Timothy Adams",
+      "payout_usd": 1695393
+    }
+  ]
+}
