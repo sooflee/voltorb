@@ -1,11 +1,11 @@
 {
   "summary": {
-    "events_total": 5,
-    "events_included": 1,
+    "events_total": 6,
+    "events_included": 2,
     "events_excluded": 4,
-    "players": 24,
-    "pool_buy_ins_usd": 7344000,
-    "pool_winnings_usd": 7056000,
+    "players": 44,
+    "pool_buy_ins_usd": 9644000,
+    "pool_winnings_usd": 9356000,
     "years": [
       2024,
       2025
@@ -28,6 +28,24 @@
       "sources": [
         "https://www.cardplayer.com/poker-news/29277-seth-davies-wins-super-high-roller-bowl-ix-for-3-2-million",
         "https://www.pokernews.com/news/2024/08/super-high-roller-bowl-ix-day-2-recap-46808.htm"
+      ]
+    },
+    {
+      "id": "2025-12-22-shrb-x",
+      "name": "Super High Roller Bowl X",
+      "series": "Super High Roller Bowl",
+      "stop": "SHRB Las Vegas 2025",
+      "date": "2025-12-22",
+      "year": 2025,
+      "buy_in_usd": 100000,
+      "entries": 23,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://www.pokernews.com/news/2025/12/2025-super-high-roller-bowl-recap-50283.htm",
+        "https://www.poker.org/latest-news/tipsy-negreanu-finds-gutsy-fold-on-day-1-of-super-high-roller-bowl-ahv3l6Q79aej/",
+        "https://www.pgt.com/news/joao-simao-wins-super-high-roller-bowl-x"
       ]
     }
   ],
@@ -83,20 +101,20 @@
       ]
     },
     {
-      "id": "2025-12-22-shrb-x",
-      "name": "Super High Roller Bowl X",
+      "id": "2025-03-08-shrb-mixed-games-100k",
+      "name": "Super High Roller Bowl: $100,000 Mixed Games",
       "series": "Super High Roller Bowl",
       "stop": "SHRB Las Vegas 2025",
-      "date": "2025-12-22",
+      "date": "2025-03-08",
       "year": 2025,
       "buy_in_usd": 100000,
-      "entries": 23,
+      "entries": 29,
       "status": "excluded",
-      "field_completeness": "partial",
-      "exclusion_reason": "Full 23-player field not published in fetchable sources; only 6 of 23 entrants named (winner, top 4, plus Jun Obara and Daniel Negreanu). Needs full field before inclusion.",
+      "field_completeness": "itm_only",
+      "exclusion_reason": "Re-entry event (one re-entry allowed) with 29 entries; full field and per-player re-entry counts not published, so buy-ins cannot be attributed exactly. Only 5 paid places and ~17 Day-1 baggers named.",
       "sources": [
-        "https://www.pokernews.com/news/2025/12/2025-super-high-roller-bowl-recap-50283.htm",
-        "https://www.pgt.com/news/joao-simao-wins-super-high-roller-bowl-x"
+        "https://www.pokernews.com/news/2025/03/chad-eveslage-wins-2025-super-high-roller-bowl-mixed-games-48129.htm",
+        "https://www.pokernews.com/news/2025/03/super-high-roller-bowl-100000-mixed-games-day-1-recap-48123.htm"
       ]
     }
   ]

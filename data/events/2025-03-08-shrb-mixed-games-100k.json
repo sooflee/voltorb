@@ -1,0 +1,33 @@
+{
+  "id": "2025-03-08-shrb-mixed-games-100k",
+  "name": "Super High Roller Bowl: $100,000 Mixed Games",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO Tour (PGT)",
+  "stop": "SHRB Las Vegas 2025",
+  "location": "PokerGO Studio, Las Vegas, USA",
+  "date": "2025-03-08",
+  "year": 2025,
+  "game": "Mixed (10-game)",
+  "format": "re-entry",
+  "buy_in_usd": 100000,
+  "currency": "USD",
+  "entries": 29,
+  "unique_entrants": null,
+  "prize_pool_usd": 2900000,
+  "status": "excluded",
+  "field_completeness": "itm_only",
+  "exclusion_reason": "Re-entry event (one re-entry allowed) with 29 entries; full field and per-player re-entry counts not published, so buy-ins cannot be attributed exactly. Only 5 paid places and ~17 Day-1 baggers named.",
+  "sources": [
+    "https://www.pokernews.com/news/2025/03/chad-eveslage-wins-2025-super-high-roller-bowl-mixed-games-48129.htm",
+    "https://www.pokernews.com/news/2025/03/super-high-roller-bowl-100000-mixed-games-day-1-recap-48123.htm"
+  ],
+  "notes": "Mar 6-8, 2025. Eveslage def. Texas Mike Moncek heads-up. Payouts: 1.2M/725k/450k/300k/225k sum to the $2.9M pool.",
+  "entrants": [],
+  "results": [
+    { "place": 1, "player": "Chad Eveslage", "payout_usd": 1200000 },
+    { "place": 2, "player": "Mike Moncek", "payout_usd": 725000 },
+    { "place": 3, "player": "Yuri Dzivielevski", "payout_usd": 450000 },
+    { "place": 4, "player": "Daniel Negreanu", "payout_usd": 300000 },
+    { "place": 5, "player": "Benny Glaser", "payout_usd": 225000 }
+  ]
+}

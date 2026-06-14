@@ -1,11 +1,11 @@
 {
   "summary": {
-    "events_total": 5,
-    "events_included": 1,
+    "events_total": 6,
+    "events_included": 2,
     "events_excluded": 4,
-    "players": 24,
-    "pool_buy_ins_usd": 7344000,
-    "pool_winnings_usd": 7056000,
+    "players": 44,
+    "pool_buy_ins_usd": 9644000,
+    "pool_winnings_usd": 9356000,
     "years": [
       2024,
       2025
@@ -58,12 +58,34 @@
       "roi": 5.2092
     },
     {
-      "player": "Jeremy Ausmus",
+      "player": "Joao Simao",
       "events_played": 1,
       "itm": 1,
-      "buy_ins_usd": 306000,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 1100000,
+      "net_usd": 1000000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 1100000,
+          "net_usd": 1000000
+        }
+      ],
+      "rank": 3,
+      "roi": 10.0
+    },
+    {
+      "player": "Jeremy Ausmus",
+      "events_played": 2,
+      "itm": 1,
+      "buy_ins_usd": 406000,
       "winnings_usd": 1200000,
-      "net_usd": 894000,
+      "net_usd": 794000,
       "events": [
         {
           "id": "2024-08-25-shrb-ix",
@@ -74,10 +96,42 @@
           "entries": 1,
           "winnings_usd": 1200000,
           "net_usd": 894000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
         }
       ],
-      "rank": 3,
-      "roi": 2.9216
+      "rank": 4,
+      "roi": 1.9557
+    },
+    {
+      "player": "Jason Koon",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 650000,
+      "net_usd": 550000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 650000,
+          "net_usd": 550000
+        }
+      ],
+      "rank": 5,
+      "roi": 5.5
     },
     {
       "player": "Leonard Maue",
@@ -98,8 +152,404 @@
           "net_usd": 444000
         }
       ],
-      "rank": 4,
+      "rank": 6,
       "roi": 1.451
+    },
+    {
+      "player": "Sam Soverel",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 350000,
+      "net_usd": 250000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 350000,
+          "net_usd": 250000
+        }
+      ],
+      "rank": 7,
+      "roi": 2.5
+    },
+    {
+      "player": "Nick Schulman",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 200000,
+      "net_usd": 100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 200000,
+          "net_usd": 100000
+        }
+      ],
+      "rank": 8,
+      "roi": 1.0
+    },
+    {
+      "player": "Jun Obara",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 9,
+      "roi": -1.0
+    },
+    {
+      "player": "Thomas Boivin",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 10,
+      "roi": -1.0
+    },
+    {
+      "player": "Igor Yaroshevskyy",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 11,
+      "roi": -1.0
+    },
+    {
+      "player": "Andrew Lichtenberger",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 12,
+      "roi": -1.0
+    },
+    {
+      "player": "Daniel Negreanu",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 13,
+      "roi": -1.0
+    },
+    {
+      "player": "Stephen Chidwick",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 14,
+      "roi": -1.0
+    },
+    {
+      "player": "Daniel Rezaei",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 15,
+      "roi": -1.0
+    },
+    {
+      "player": "Jesse Lonis",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 16,
+      "roi": -1.0
+    },
+    {
+      "player": "Cary Katz",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 17,
+      "roi": -1.0
+    },
+    {
+      "player": "Brandon Wilson",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 18,
+      "roi": -1.0
+    },
+    {
+      "player": "Ben Tollerene",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 19,
+      "roi": -1.0
+    },
+    {
+      "player": "Umang Dattani",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 20,
+      "roi": -1.0
+    },
+    {
+      "player": "Sam Kiki",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 21,
+      "roi": -1.0
+    },
+    {
+      "player": "Dan Smith",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 22,
+      "roi": -1.0
+    },
+    {
+      "player": "David Chen",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 23,
+      "roi": -1.0
+    },
+    {
+      "player": "Alex Foxen",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 100000,
+      "winnings_usd": 0,
+      "net_usd": -100000,
+      "events": [
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 24,
+      "roi": -1.0
     },
     {
       "player": "Masashi Oya",
@@ -120,7 +570,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 5,
+      "rank": 25,
       "roi": -1.0
     },
     {
@@ -142,7 +592,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 6,
+      "rank": 26,
       "roi": -1.0
     },
     {
@@ -164,7 +614,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 7,
+      "rank": 27,
       "roi": -1.0
     },
     {
@@ -186,7 +636,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 8,
+      "rank": 28,
       "roi": -1.0
     },
     {
@@ -208,29 +658,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 9,
-      "roi": -1.0
-    },
-    {
-      "player": "Nick Petrangelo",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 10,
+      "rank": 29,
       "roi": -1.0
     },
     {
@@ -252,7 +680,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 11,
+      "rank": 30,
       "roi": -1.0
     },
     {
@@ -274,7 +702,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 12,
+      "rank": 31,
       "roi": -1.0
     },
     {
@@ -296,7 +724,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 13,
+      "rank": 32,
       "roi": -1.0
     },
     {
@@ -318,7 +746,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 14,
+      "rank": 33,
       "roi": -1.0
     },
     {
@@ -340,29 +768,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 15,
-      "roi": -1.0
-    },
-    {
-      "player": "Bryn Kenney",
-      "events_played": 1,
-      "itm": 0,
-      "buy_ins_usd": 306000,
-      "winnings_usd": 0,
-      "net_usd": -306000,
-      "events": [
-        {
-          "id": "2024-08-25-shrb-ix",
-          "name": "Super High Roller Bowl IX",
-          "date": "2024-08-25",
-          "year": 2024,
-          "buy_in_usd": 306000,
-          "entries": 1,
-          "winnings_usd": 0,
-          "net_usd": -306000
-        }
-      ],
-      "rank": 16,
+      "rank": 34,
       "roi": -1.0
     },
     {
@@ -384,7 +790,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 17,
+      "rank": 35,
       "roi": -1.0
     },
     {
@@ -406,7 +812,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 18,
+      "rank": 36,
       "roi": -1.0
     },
     {
@@ -428,7 +834,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 19,
+      "rank": 37,
       "roi": -1.0
     },
     {
@@ -450,7 +856,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 20,
+      "rank": 38,
       "roi": -1.0
     },
     {
@@ -472,7 +878,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 21,
+      "rank": 39,
       "roi": -1.0
     },
     {
@@ -494,7 +900,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 22,
+      "rank": 40,
       "roi": -1.0
     },
     {
@@ -516,7 +922,7 @@
           "net_usd": -306000
         }
       ],
-      "rank": 23,
+      "rank": 41,
       "roi": -1.0
     },
     {
@@ -538,7 +944,71 @@
           "net_usd": -306000
         }
       ],
-      "rank": 24,
+      "rank": 42,
+      "roi": -1.0
+    },
+    {
+      "player": "Nick Petrangelo",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 406000,
+      "winnings_usd": 0,
+      "net_usd": -406000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 43,
+      "roi": -1.0
+    },
+    {
+      "player": "Bryn Kenney",
+      "events_played": 2,
+      "itm": 0,
+      "buy_ins_usd": 406000,
+      "winnings_usd": 0,
+      "net_usd": -406000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        },
+        {
+          "id": "2025-12-22-shrb-x",
+          "name": "Super High Roller Bowl X",
+          "date": "2025-12-22",
+          "year": 2025,
+          "buy_in_usd": 100000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -100000
+        }
+      ],
+      "rank": 44,
       "roi": -1.0
     }
   ]
