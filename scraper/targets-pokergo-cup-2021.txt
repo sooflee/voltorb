@@ -1,0 +1,18 @@
+# 2021 PokerGO Cup Event #8 — $100,000 (FREEZEOUT, 23 entries) : roster reconstruction
+# Run:  python3 scraper/safari_scrape.py --targets scraper/targets-pokergo-cup-2021.txt
+#
+# Confirmed a FREEZEOUT (single entry), 23 entrants, $2,300,000 pool, Cary Katz won
+# $1,058,000 (def. Sam Soverel HU). I have the 4 payouts; I just need the full 23-name
+# field. These PokerNews live-reporting pages (Day 1 seat draw / chip counts / updates)
+# carry it. Plain PokerNews pages (no Cloudflare) — Safari captures them directly.
+
+# --- Day-1 seat draw (the cleanest full starting field for a freezeout) + chip counts ---
+https://www.pokernews.com/tours/pokergo-tour/2021-pokergo-cup/event-8-100-000-no-limit-hold-em/seat-draw.htm
+https://www.pokernews.com/tours/pokergo-tour/2021-pokergo-cup/event-8-100-000-no-limit-hold-em/chips.htm
+
+# --- Live-update feed (names every entrant/elimination), newest -> oldest ---
+https://www.pokernews.com/tours/pokergo-tour/2021-pokergo-cup/event-8-100-000-no-limit-hold-em/
+https://www.pokernews.com/tours/pokergo-tour/2021-pokergo-cup/event-8-100-000-no-limit-hold-em/?page=2
+https://www.pokernews.com/tours/pokergo-tour/2021-pokergo-cup/event-8-100-000-no-limit-hold-em/?page=3
+https://www.pokernews.com/tours/pokergo-tour/2021-pokergo-cup/event-8-100-000-no-limit-hold-em/?page=4
+https://www.pokernews.com/tours/pokergo-tour/2021-pokergo-cup/event-8-100-000-no-limit-hold-em/day1/
