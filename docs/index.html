@@ -62,6 +62,15 @@
   </div>
 
   <h2>Net P&amp;L leaderboard</h2>
+  <div style="margin:6px 0 10px;display:flex;align-items:center;gap:8px;">
+    <label class="reason" for="yearFilter">Show events from:</label>
+    <select id="yearFilter" style="background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-size:13px;">
+      <option value="0">All time</option>
+      <option value="2016">2016 onwards</option>
+      <option value="2020">2020 onwards</option>
+      <option value="2023">2023 onwards</option>
+    </select>
+  </div>
   <p class="sub" id="lb-scope"></p>
   <table id="lb">
     <thead><tr>
@@ -105,17 +114,48 @@ const fmtROI = r => r == null ? "—" : (r >= 0 ? "+" : "") + (r * 100).toFixed(
 const fmtDate = d => d || "—";
 const cls = n => n > 0 ? "pos" : n < 0 ? "neg" : "";
 
+let RAW = [], SUMMARY = {};
 async function load() {
   const [lb, cov] = await Promise.all([
     fetch("./data/leaderboard.json").then(r => r.json()),
     fetch("./data/coverage.json").then(r => r.json()),
   ]);
-  renderCards(lb.summary);
-  renderLeaderboard(lb.players);
-  document.getElementById("lb-scope").textContent =
-    `${lb.players.length} players across ${lb.summary.events_included} fully-reconstructed event(s), ` +
-    `${lb.summary.years.join("–")}.`;
+  RAW = lb.players; SUMMARY = lb.summary;
   renderCoverage(cov);
+  const sel = document.getElementById("yearFilter");
+  sel.onchange = () => applyFilter(Number(sel.value));
+  applyFilter(Number(sel.value));
+}
+
+// Recompute the whole leaderboard client-side for events with year >= minYear,
+// using each player's per-event breakdown in leaderboard.json.
+function applyFilter(minYear) {
+  const players = [];
+  for (const p of RAW) {
+    const es = (p.events || []).filter(e => e.year >= minYear);
+    if (!es.length) continue;
+    const buy = es.reduce((s, e) => s + e.buy_in_usd * (e.entries || 1), 0);
+    const win = es.reduce((s, e) => s + e.winnings_usd, 0);
+    const net = es.reduce((s, e) => s + e.net_usd, 0);
+    players.push({ player: p.player, events_played: es.length,
+      itm: es.filter(e => e.winnings_usd > 0).length,
+      buy_ins_usd: buy, winnings_usd: win, net_usd: net,
+      roi: buy ? net / buy : null, events: es });
+  }
+  players.sort((a, b) => b.net_usd - a.net_usd);
+  players.forEach((p, i) => p.rank = i + 1);
+  const ids = new Set();
+  players.forEach(p => p.events.forEach(e => ids.add(e.id)));
+  const years = [...new Set(players.flatMap(p => p.events.map(e => e.year)))].sort();
+  renderCards({ players: players.length, events_included: ids.size,
+    events_excluded: SUMMARY.events_excluded, events_evaluated_excluded: SUMMARY.events_evaluated_excluded,
+    pool_buy_ins_usd: players.reduce((s, p) => s + p.buy_ins_usd, 0),
+    pool_winnings_usd: players.reduce((s, p) => s + p.winnings_usd, 0) });
+  renderLeaderboard(players);
+  document.getElementById("lb-scope").textContent =
+    `${players.length} players across ${ids.size} event(s)` +
+    (years.length ? `, ${years[0]}–${years[years.length - 1]}` : "") +
+    (minYear ? ` — filtered to ${minYear}+` : "") + ".";
 }
 
 function renderCards(s) {

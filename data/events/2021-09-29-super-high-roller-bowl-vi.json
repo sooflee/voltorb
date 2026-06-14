@@ -1,0 +1,53 @@
+{
+  "id": "2021-09-29-super-high-roller-bowl-vi",
+  "name": "Super High Roller Bowl VI",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO Tour (PGT)",
+  "stop": "SHRB VI 2021",
+  "location": "ARIA PokerGO Studio, Las Vegas, USA",
+  "date": "2021-09-29",
+  "year": 2021,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 300000,
+  "currency": "USD",
+  "entries": 21,
+  "unique_entrants": 21,
+  "prize_pool_usd": 6300000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://de.wikipedia.org/wiki/Super_High_Roller_Bowl_VI",
+    "https://www.pgt.com/live-reporting/super-high-roller-bowl-vi/super-high-roller-bowl-vi"
+  ],
+  "notes": "Freezeout, 21 entrants = 21 entries (full field, German Wikipedia roster). 21 x $300,000 = $6,300,000 pool; top 3 paid; payouts reconcile exactly. Michael Addamo won $3,402,000.",
+  "entrants": [
+    "Michael Addamo",
+    "Mikita Badziakouski",
+    "Justin Bonomo",
+    "Chris Brewer",
+    "Stephen Chidwick",
+    "Seth Davies",
+    "David Einhorn",
+    "Alex Foxen",
+    "Ali Imsirovic",
+    "Cary Katz",
+    "Bryn Kenney",
+    "Bill Klein",
+    "Jason Koon",
+    "Jonathan Little",
+    "Adrian Mateos",
+    "Daniel Negreanu",
+    "David Peters",
+    "Nick Petrangelo",
+    "Jake Schindler",
+    "Sam Soverel",
+    "Sean Winter"
+  ],
+  "results": [
+    { "place": 1, "player": "Michael Addamo", "payout_usd": 3402000 },
+    { "place": 2, "player": "Justin Bonomo", "payout_usd": 1890000 },
+    { "place": 3, "player": "Sean Winter", "payout_usd": 1008000 }
+  ]
+}
