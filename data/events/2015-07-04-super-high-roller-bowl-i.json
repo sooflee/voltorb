@@ -1,0 +1,107 @@
+{
+  "id": "2015-07-04-super-high-roller-bowl-i",
+  "name": "Super High Roller Bowl I",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO Tour (PGT)",
+  "stop": "SHRB I 2015",
+  "location": "ARIA Resort & Casino, Las Vegas, USA",
+  "date": "2015-07-04",
+  "year": 2015,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 500000,
+  "currency": "USD",
+  "entries": 43,
+  "unique_entrants": 43,
+  "prize_pool_usd": 21500000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://de.wikipedia.org/wiki/Super_High_Roller_Bowl_2015",
+    "https://www.cardplayer.com/poker-news/19488-brian-rast-wins-2015-aria-500-000-super-high-roller"
+  ],
+  "notes": "43 entrants = 43 entries (one each; full field, German Wikipedia roster). 43 x $500,000 = $21,500,000 pool; top 7 paid; payouts reconcile exactly. Brian Rast won $7,525,000.",
+  "entrants": [
+    "Max Altergott",
+    "Jean-Robert Bellande",
+    "Daniel Cates",
+    "Joseph Cheong",
+    "Stanley Choi",
+    "Daniel Colman",
+    "Connor Drinan",
+    "Tom Dwan",
+    "Antonio Esfandiari",
+    "Ryan Fee",
+    "Phil Galfond",
+    "Tom Hall",
+    "Isaac Haxton",
+    "Phil Hellmuth",
+    "Fedor Holz",
+    "Phil Ivey",
+    "Cary Katz",
+    "Byron Kaverman",
+    "Igor Kurganov",
+    "Timofey Kuznetsov",
+    "Keith Lehr",
+    "Jason Les",
+    "Andrew Lichtenberger",
+    "Tom Marchese",
+    "Jason Mercier",
+    "Sorel Mizzi",
+    "Daniel Negreanu",
+    "Paul Newey",
+    "David Peters",
+    "Doug Polk",
+    "Fabian Quoss",
+    "Brian Rast",
+    "Tobias Reinkemeier",
+    "Andrew Robl",
+    "David Sands",
+    "Ole Schemion",
+    "Noah Schwartz",
+    "Erik Seidel",
+    "Scott Seiver",
+    "Roger Sippl",
+    "Dan Smith",
+    "Sam Soverel",
+    "Christoph Vogelsang"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Brian Rast",
+      "payout_usd": 7525000
+    },
+    {
+      "place": 2,
+      "player": "Scott Seiver",
+      "payout_usd": 5160000
+    },
+    {
+      "place": 3,
+      "player": "Connor Drinan",
+      "payout_usd": 3225000
+    },
+    {
+      "place": 4,
+      "player": "Timofey Kuznetsov",
+      "payout_usd": 2150000
+    },
+    {
+      "place": 5,
+      "player": "David Peters",
+      "payout_usd": 1505000
+    },
+    {
+      "place": 6,
+      "player": "Tom Marchese",
+      "payout_usd": 1075000
+    },
+    {
+      "place": 7,
+      "player": "Erik Seidel",
+      "payout_usd": 860000
+    }
+  ]
+}

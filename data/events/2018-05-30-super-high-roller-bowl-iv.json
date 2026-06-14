@@ -1,0 +1,112 @@
+{
+  "id": "2018-05-30-super-high-roller-bowl-iv",
+  "name": "Super High Roller Bowl IV",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO Tour (PGT)",
+  "stop": "SHRB IV 2018",
+  "location": "ARIA Resort & Casino, Las Vegas, USA",
+  "date": "2018-05-30",
+  "year": 2018,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 300000,
+  "currency": "USD",
+  "entries": 48,
+  "unique_entrants": 48,
+  "prize_pool_usd": 14400000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://de.wikipedia.org/wiki/Super_High_Roller_Bowl_2018",
+    "https://www.pokernews.com/news/2018/05/justin-bonomo-wins-2018-super-high-roller-bowl-5-million-30947.htm"
+  ],
+  "notes": "48 entrants = 48 entries (full field, German Wikipedia roster). 48 x $300,000 = $14,400,000 pool; top 7 paid; payouts reconcile exactly. Justin Bonomo won $5,000,000 (def. Negreanu).",
+  "entrants": [
+    "Brandon Adams",
+    "Sergio Aido",
+    "Koray Aldemir",
+    "John Andress",
+    "Mikita Badziakouski",
+    "Dennis Blieden",
+    "Justin Bonomo",
+    "Kahle Burns",
+    "Stephen Chidwick",
+    "Christian Christner",
+    "Seth Davies",
+    "Markus Durnegger",
+    "Andreas Eiler",
+    "Antonio Esfandiari",
+    "Lawrence Greenberg",
+    "Isaac Haxton",
+    "Phil Hellmuth",
+    "Fedor Holz",
+    "Matt Hyman",
+    "Phil Ivey",
+    "Cary Katz",
+    "Byron Kaverman",
+    "Rainer Kempe",
+    "Bryn Kenney",
+    "Jason Koon",
+    "Igor Kurganov",
+    "Timofey Kuznetsov",
+    "Kathy Lehne",
+    "Andrew Lichtenberger",
+    "Tom Marchese",
+    "Adrian Mateos",
+    "Daniel Negreanu",
+    "Bill Perkins",
+    "David Peters",
+    "Nick Petrangelo",
+    "Doug Polk",
+    "Brian Rast",
+    "Arne Ruge",
+    "Jake Schindler",
+    "Erik Seidel",
+    "Dan Shak",
+    "Talal Shakerchi",
+    "Dan Smith",
+    "Steffen Sontheimer",
+    "Sam Soverel",
+    "Keith Tilston",
+    "Ben Tollerene",
+    "Christoph Vogelsang"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Justin Bonomo",
+      "payout_usd": 5000000
+    },
+    {
+      "place": 2,
+      "player": "Daniel Negreanu",
+      "payout_usd": 3000000
+    },
+    {
+      "place": 3,
+      "player": "Jason Koon",
+      "payout_usd": 2100000
+    },
+    {
+      "place": 4,
+      "player": "Mikita Badziakouski",
+      "payout_usd": 1600000
+    },
+    {
+      "place": 5,
+      "player": "Christoph Vogelsang",
+      "payout_usd": 1200000
+    },
+    {
+      "place": 6,
+      "player": "Nick Petrangelo",
+      "payout_usd": 900000
+    },
+    {
+      "place": 7,
+      "player": "Stephen Chidwick",
+      "payout_usd": 600000
+    }
+  ]
+}
