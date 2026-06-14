@@ -18,7 +18,7 @@ EVENTS_DIR = ROOT / "data" / "events"
 ALIASES_PATH = ROOT / "data" / "players" / "aliases.json"
 OUT_DIR = ROOT / "docs" / "data"
 
-MIN_BUY_IN = 15000
+MIN_BUY_IN = 11000
 
 
 def load_aliases():

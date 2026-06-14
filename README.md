@@ -1,7 +1,7 @@
 # Voltorb
 
 A net **profit & loss study of the high-stakes professional poker cohort** — live
-tournaments with buy-ins of **$15,000+**. The goal is to triangulate, across every event,
+tournaments (2023–present) with buy-ins of **$11,000+**. The goal is to triangulate, across every event,
 who is actually *winning or losing* once you subtract buy-ins from winnings.
 
 **Live site:** https://sooflee.github.io/voltorb/

@@ -19,7 +19,7 @@ The pipeline (`pipeline/build.py`) reads every file, canonicalizes player names 
 | `year` | integer | yes | Calendar year. |
 | `game` | string | yes | e.g. `No-Limit Hold'em`, `Pot-Limit Omaha`. |
 | `format` | string | no | `freezeout` or `re-entry`. |
-| `buy_in_usd` | integer | yes | **Total cost to enter once, in USD, including fee.** Must be ≥ 15000. |
+| `buy_in_usd` | integer | yes | **Total cost to enter once, in USD, including fee.** Must be ≥ 11000. |
 | `currency` | string | no | Original currency if not USD; `buy_in_usd` is always the USD figure used. |
 | `entries` | integer | yes | Total entries incl. re-entries. |
 | `unique_entrants` | integer | yes | Distinct players in the field. |
@@ -62,7 +62,7 @@ roi = net_pnl / total_buy_ins
 
 ## Validation (enforced by build.py)
 
-- `buy_in_usd >= 15000`.
+- `buy_in_usd >= 11000`.
 - Every `results[].player` must appear in `entrants` (for included events).
 - `place` values are unique and positive.
 - If `prize_pool_usd` is present, `sum(payout_usd)` must not exceed it.
