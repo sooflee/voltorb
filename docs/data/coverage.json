@@ -1,12 +1,14 @@
 {
   "summary": {
-    "events_total": 15,
-    "events_included": 9,
+    "events_total": 18,
+    "events_included": 12,
     "events_excluded": 6,
-    "players": 133,
-    "pool_buy_ins_usd": 137765818,
-    "pool_winnings_usd": 129344617,
+    "players": 164,
+    "pool_buy_ins_usd": 254765818,
+    "pool_winnings_usd": 234184627,
     "years": [
+      2012,
+      2014,
       2016,
       2018,
       2019,
@@ -19,6 +21,39 @@
     "events_evaluated_excluded": 12
   },
   "included": [
+    {
+      "id": "2012-07-03-big-one-for-one-drop",
+      "name": "The Big One for One Drop",
+      "series": "The Big One for One Drop",
+      "stop": "2012 WSOP, Las Vegas",
+      "date": "2012-07-03",
+      "year": 2012,
+      "buy_in_usd": 1000000,
+      "entries": 48,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://de.wikipedia.org/wiki/The_Big_One_for_One_Drop_2012",
+        "https://www.pokerlistings.com/news/official-player-list-for-wsop-1m-big-one-for-one-drop-announced-41918"
+      ]
+    },
+    {
+      "id": "2014-07-01-big-one-for-one-drop",
+      "name": "The Big One for One Drop",
+      "series": "The Big One for One Drop",
+      "stop": "2014 WSOP, Las Vegas",
+      "date": "2014-07-01",
+      "year": 2014,
+      "buy_in_usd": 1000000,
+      "entries": 42,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://de.wikipedia.org/wiki/The_Big_One_for_One_Drop_2014"
+      ]
+    },
     {
       "id": "2016-05-29-super-high-roller-bowl-ii-aria",
       "name": "Super High Roller Bowl II",
@@ -37,6 +72,23 @@
         "https://www.pokernews.com/news/2016/05/2016-shrb-1-24885.htm",
         "https://www.cardplayer.com/poker-news/20429-rainer-kempe-wins-2016-300-000-buy-in-super-high-roller-bowl",
         "https://en.wikipedia.org/wiki/Super_High_Roller_Bowl"
+      ]
+    },
+    {
+      "id": "2018-07-17-big-one-for-one-drop",
+      "name": "The Big One for One Drop",
+      "series": "The Big One for One Drop",
+      "stop": "2018 WSOP, Las Vegas",
+      "date": "2018-07-17",
+      "year": 2018,
+      "buy_in_usd": 1000000,
+      "entries": 27,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://de.wikipedia.org/wiki/The_Big_One_for_One_Drop_2018",
+        "https://www.pokernews.com/tours/wsop/2018-wsop/event-78-the-big-one-for-one-drop-1000000/payouts.htm"
       ]
     },
     {

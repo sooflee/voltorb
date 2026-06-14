@@ -52,11 +52,14 @@ the entrant list for included events), then writes `docs/data/leaderboard.json` 
 
 ## Current dataset
 
-**Included (9 events, true net P&L), all freezeouts with complete named fields:**
+**Included (12 events, true net P&L), all freezeouts with complete named fields:**
 
 | Event | Date | Buy-in | Field |
 |---|---|---|---|
+| The Big One for One Drop | Jul 2012 | $1.0M | 48 |
+| The Big One for One Drop | Jul 2014 | $1.0M | 42 |
 | Super High Roller Bowl II | May 2016 | $300k | 49 |
+| The Big One for One Drop | Jul 2018 | $1.0M | 27 |
 | Super High Roller Bowl V | Dec 2018 | $300k | 36 |
 | Triton Million – London | Aug 2019 | £1.05M | 54 |
 | Super High Roller Bowl London | Sep 2019 | £250k | 12 |
@@ -70,9 +73,10 @@ Every one has a complete, named field and payouts that reconcile to the publishe
 **Excluded:** 6 events on file (full payouts but re-entry / no full roster) + 12 more the
 field-sweep evaluated and rejected — all listed with reasons on the site's Coverage page.
 
-With 133 players across 9 events the leaderboard triangulates deeply: e.g. Bryn Kenney
-(8 events, +$18.1M), Stephen Chidwick (8), Nick Petrangelo (8, −$1.86M), Dan Smith
-(7, +$7.95M), Jason Koon (6, −$2.0M).
+With **164 players across 12 events (2012–2025)** the leaderboard triangulates deeply:
+Antonio Esfandiari (+$15.0M, won 2012), Bryn Kenney (8 events, +$18.1M), Daniel Negreanu
+(8 events, +$7.3M), Cary Katz (10 events, −$1.95M), Phil Ivey (5 events, −$4.3M, three $1M
+One Drops cashed none).
 
 Why only freezeouts: exact net P&L needs every buy-in, including busts → a complete field.
 That is only knowable for freezeouts (one entry per player). Re-entry events can't be made

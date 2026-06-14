@@ -1,0 +1,122 @@
+{
+  "id": "2012-07-03-big-one-for-one-drop",
+  "name": "The Big One for One Drop",
+  "series": "The Big One for One Drop",
+  "tour": "WSOP",
+  "stop": "2012 WSOP, Las Vegas",
+  "location": "Rio, Las Vegas, USA",
+  "date": "2012-07-03",
+  "year": 2012,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 1000000,
+  "currency": "USD",
+  "entries": 48,
+  "unique_entrants": 48,
+  "prize_pool_usd": 42666672,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://de.wikipedia.org/wiki/The_Big_One_for_One_Drop_2012",
+    "https://www.pokerlistings.com/news/official-player-list-for-wsop-1m-big-one-for-one-drop-announced-41918"
+  ],
+  "notes": "Freezeout, 48 entrants = 48 entries (full field, German Wikipedia roster). Buy-in $1,000,000 ($111,111/entry to the One Drop charity, $888,889 to the $42,666,672 pool). 9 paid; payouts reconcile exactly to the pool.",
+  "entrants": [
+    "Bobby Baldwin",
+    "Frederic Banjout",
+    "Bob Bright",
+    "Ilya Bulychev",
+    "Roland De Wolfe",
+    "Tom Dwan",
+    "Jonathan Duhamel",
+    "David Einhorn",
+    "Antonio Esfandiari",
+    "Phil Galfond",
+    "Bertrand Grospellier",
+    "Philipp Gruissem",
+    "Giovanni Guarascio",
+    "Gus Hansen",
+    "Phil Hellmuth",
+    "Phil Ivey",
+    "Eugene Katchalov",
+    "Cary Katz",
+    "Jens Kyllonen",
+    "Guy Laliberte",
+    "Ben Lamb",
+    "Tom Marchese",
+    "Jason Mercier",
+    "Michael Mizrachi",
+    "John Morgan",
+    "Daniel Negreanu",
+    "Paul Newey",
+    "Chamath Palihapitiya",
+    "Bill Perkins",
+    "Paul Phua",
+    "Brian Rast",
+    "Vivek Rajkumar",
+    "Tobias Reinkemeier",
+    "Andrew Robl",
+    "Phil Ruffin",
+    "Rick Salomon",
+    "Nick Schulman",
+    "Noah Schwartz",
+    "Erik Seidel",
+    "Mike Sexton",
+    "Dan Shak",
+    "Talal Shakerchi",
+    "Mikhail Smirnov",
+    "Justin Smith",
+    "Brandon Steven",
+    "Sam Trickett",
+    "Haralabos Voulgaris",
+    "Richard Yong"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Antonio Esfandiari",
+      "payout_usd": 18346673
+    },
+    {
+      "place": 2,
+      "player": "Sam Trickett",
+      "payout_usd": 10112001
+    },
+    {
+      "place": 3,
+      "player": "David Einhorn",
+      "payout_usd": 4352000
+    },
+    {
+      "place": 4,
+      "player": "Phil Hellmuth",
+      "payout_usd": 2645333
+    },
+    {
+      "place": 5,
+      "player": "Guy Laliberte",
+      "payout_usd": 1834666
+    },
+    {
+      "place": 6,
+      "player": "Brian Rast",
+      "payout_usd": 1621333
+    },
+    {
+      "place": 7,
+      "player": "Bobby Baldwin",
+      "payout_usd": 1408000
+    },
+    {
+      "place": 8,
+      "player": "Richard Yong",
+      "payout_usd": 1237333
+    },
+    {
+      "place": 9,
+      "player": "Mike Sexton",
+      "payout_usd": 1109333
+    }
+  ]
+}

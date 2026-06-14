@@ -1,0 +1,81 @@
+{
+  "id": "2018-07-17-big-one-for-one-drop",
+  "name": "The Big One for One Drop",
+  "series": "The Big One for One Drop",
+  "tour": "WSOP",
+  "stop": "2018 WSOP, Las Vegas",
+  "location": "Rio, Las Vegas, USA",
+  "date": "2018-07-17",
+  "year": 2018,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 1000000,
+  "currency": "USD",
+  "entries": 27,
+  "unique_entrants": 27,
+  "prize_pool_usd": 24840000,
+  "status": "included",
+  "field_completeness": "full",
+  "exclusion_reason": null,
+  "sources": [
+    "https://de.wikipedia.org/wiki/The_Big_One_for_One_Drop_2018",
+    "https://www.pokernews.com/tours/wsop/2018-wsop/event-78-the-big-one-for-one-drop-1000000/payouts.htm"
+  ],
+  "notes": "Freezeout, 27 entrants = 27 entries (full field, German Wikipedia roster). Buy-in $1,000,000 ($80,000/entry to charity, $920,000 to the $24,840,000 pool). 5 paid; payouts reconcile exactly (4th = $2,840,000). Bonomo won $10M.",
+  "entrants": [
+    "Mikita Badziakouski",
+    "Justin Bonomo",
+    "Stephen Chidwick",
+    "David Einhorn",
+    "Antonio Esfandiari",
+    "Fedor Holz",
+    "Phil Ivey",
+    "Byron Kaverman",
+    "Cary Katz",
+    "Rainer Kempe",
+    "Bryn Kenney",
+    "Jason Koon",
+    "Adrian Mateos",
+    "Daniel Negreanu",
+    "Dominik Nitsche",
+    "David Peters",
+    "Nick Petrangelo",
+    "Brian Rast",
+    "Rick Salomon",
+    "Jake Schindler",
+    "Erik Seidel",
+    "Talal Shakerchi",
+    "Matthew Siegal",
+    "Dan Smith",
+    "Steffen Sontheimer",
+    "Leon Tsoukernik",
+    "Christoph Vogelsang"
+  ],
+  "results": [
+    {
+      "place": 1,
+      "player": "Justin Bonomo",
+      "payout_usd": 10000000
+    },
+    {
+      "place": 2,
+      "player": "Fedor Holz",
+      "payout_usd": 6000000
+    },
+    {
+      "place": 3,
+      "player": "Dan Smith",
+      "payout_usd": 4000000
+    },
+    {
+      "place": 4,
+      "player": "Rick Salomon",
+      "payout_usd": 2840000
+    },
+    {
+      "place": 5,
+      "player": "Byron Kaverman",
+      "payout_usd": 2000000
+    }
+  ]
+}
