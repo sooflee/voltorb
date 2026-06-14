@@ -18,11 +18,14 @@ tell Claude — it parses them into data/events/*.json and rebuilds the leaderbo
 --- Setup (once) ---
   python3 -m venv .venv && source .venv/bin/activate
   pip install playwright
-  playwright install chromium
+  playwright install webkit          # Safari's engine — passes where Chromium is blocked
+  # (optional) playwright install chromium firefox
 
 --- Usage ---
   python scraper/scrape.py "https://pokerdb.thehendonmob.com/event.php?a=r&n=1028367"
   python scraper/scrape.py --targets scraper/targets.txt
+  # default engine is webkit (Safari). Override if needed:
+  python scraper/scrape.py --engine chromium --targets scraper/targets.txt
 """
 import argparse
 import json
@@ -36,13 +39,12 @@ from urllib.parse import urlparse
 try:
     from playwright.sync_api import sync_playwright
 except ImportError:
-    sys.exit("Playwright not installed. Run:\n  pip install playwright && playwright install chromium")
+    sys.exit("Playwright not installed. Run:\n  pip install playwright && playwright install webkit")
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUT = ROOT / "data" / "incoming"
 DEFAULT_PROFILE = ROOT / ".scraper-profile"
-UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+ENGINES = ("webkit", "chromium", "firefox")
 
 
 def slugify(url):
@@ -95,6 +97,9 @@ def main():
     ap.add_argument("--out", default=str(DEFAULT_OUT))
     ap.add_argument("--profile", default=str(DEFAULT_PROFILE),
                     help="persistent browser profile dir (keeps logins/cookies) — DO NOT COMMIT")
+    ap.add_argument("--engine", default="webkit", choices=ENGINES,
+                    help="browser engine; webkit = Safari (default), passes where Chromium is blocked")
+    ap.add_argument("--user-agent", default=None, help="override UA; default = engine's native UA")
     ap.add_argument("--headless", action="store_true", help="run without a visible window (no CAPTCHA solving)")
     ap.add_argument("--wait", type=float, default=3.0, help="extra seconds to wait after each load")
     ap.add_argument("--auto", action="store_true", help="never pause for manual CAPTCHA/login")
@@ -108,13 +113,23 @@ def main():
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
+    # per-engine profile subdir so engines don't corrupt each other's session
+    profile_dir = str(Path(args.profile) / args.engine)
     seen_domains = set()
     index = []
 
     with sync_playwright() as pw:
-        ctx = pw.chromium.launch_persistent_context(
-            args.profile, headless=args.headless,
-            viewport={"width": 1400, "height": 1000}, user_agent=UA)
+        launcher = getattr(pw, args.engine)
+        ctx_kwargs = {"headless": args.headless,
+                      "viewport": {"width": 1400, "height": 1000}}
+        if args.user_agent:
+            ctx_kwargs["user_agent"] = args.user_agent
+        print(f"Engine: {args.engine}  ·  profile: {profile_dir}")
+        try:
+            ctx = launcher.launch_persistent_context(profile_dir, **ctx_kwargs)
+        except Exception as e:
+            sys.exit(f"Could not launch {args.engine}. Did you run "
+                     f"'playwright install {args.engine}'?\n{e}")
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
 
         for i, url in enumerate(urls, 1):

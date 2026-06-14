@@ -11,8 +11,12 @@ cd /Users/benson/Projects/voltorb
 python3 -m venv .venv
 source .venv/bin/activate
 pip install playwright
-playwright install chromium
+playwright install webkit      # Safari's engine — gets past Cloudflare where Chromium is blocked
 ```
+
+The default engine is **webkit (Safari)** because Hendon Mob's Cloudflare blocks Chromium but
+allows Safari. To use a different engine: `--engine chromium` or `--engine firefox` (run
+`playwright install <engine>` first).
 
 ## 2. Pick what to capture
 
