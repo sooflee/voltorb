@@ -1,0 +1,10 @@
+{
+  "_comment": "Maps published name variants -> canonical player name. The pipeline applies this to every entrant and result name. Extend as new spellings appear.",
+  "Juan Pardo Dominguez": "Juan Pardo",
+  "Juan Pardo Domínguez": "Juan Pardo",
+  "Benjamin Tollerene": "Ben Tollerene",
+  "Mikita Badziakouski": "Mikita Badziakouski",
+  "Nikita Badziakouski": "Mikita Badziakouski",
+  "Joao Simao": "Joao Simao",
+  "João Simão": "Joao Simao"
+}

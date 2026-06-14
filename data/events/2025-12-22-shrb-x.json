@@ -1,0 +1,32 @@
+{
+  "id": "2025-12-22-shrb-x",
+  "name": "Super High Roller Bowl X",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO Tour (PGT)",
+  "stop": "SHRB Las Vegas 2025",
+  "location": "ARIA PokerGO Studio, Las Vegas, USA",
+  "date": "2025-12-22",
+  "year": 2025,
+  "game": "No-Limit Hold'em",
+  "format": "freezeout",
+  "buy_in_usd": 100000,
+  "currency": "USD",
+  "entries": 23,
+  "unique_entrants": 23,
+  "prize_pool_usd": 2300000,
+  "status": "excluded",
+  "field_completeness": "partial",
+  "exclusion_reason": "Full 23-player field not published in fetchable sources; only 6 of 23 entrants named (winner, top 4, plus Jun Obara and Daniel Negreanu). Needs full field before inclusion.",
+  "sources": [
+    "https://www.pokernews.com/news/2025/12/2025-super-high-roller-bowl-recap-50283.htm",
+    "https://www.pgt.com/news/joao-simao-wins-super-high-roller-bowl-x"
+  ],
+  "notes": "23-player freezeout, top 4 paid. Payouts confirmed; field incomplete.",
+  "entrants": [],
+  "results": [
+    { "place": 1, "player": "Joao Simao", "payout_usd": 1100000 },
+    { "place": 2, "player": "Jason Koon", "payout_usd": 650000 },
+    { "place": 3, "player": "Sam Soverel", "payout_usd": 350000 },
+    { "place": 4, "player": "Nick Schulman", "payout_usd": 200000 }
+  ]
+}

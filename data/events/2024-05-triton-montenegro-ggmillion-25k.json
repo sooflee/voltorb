@@ -1,0 +1,29 @@
+{
+  "id": "2024-05-triton-montenegro-ggmillion-25k",
+  "name": "GG MILLION$ $25,000 NLH 8-Handed (Event #1)",
+  "series": "Triton Super High Roller Series",
+  "tour": "Triton",
+  "stop": "Triton Montenegro 2024",
+  "location": "Maestral Resort, Budva, Montenegro",
+  "date": null,
+  "year": 2024,
+  "game": "No-Limit Hold'em",
+  "format": "re-entry",
+  "buy_in_usd": 25000,
+  "currency": "USD",
+  "entries": 163,
+  "unique_entrants": null,
+  "prize_pool_usd": 4075000,
+  "status": "excluded",
+  "field_completeness": "itm_only",
+  "exclusion_reason": "163-entry re-entry field; only the top 27 in-the-money finishers are published. No full entrant list, so buy-ins for the ~136 non-cashing entries cannot be attributed to named players.",
+  "sources": [
+    "https://www.pokernews.com/news/2024/05/chris-moneymaker-triton-series-montenegro-gg-million-win-45999.htm",
+    "https://somuchpoker.com/news/triton-super-high-roller-series-montenegro-recap-1"
+  ],
+  "notes": "Early May 2024 (exact date unconfirmed). Chris Moneymaker won $903,000, defeating Brian Kim heads-up. Only winner recorded pending full ITM verification.",
+  "entrants": [],
+  "results": [
+    { "place": 1, "player": "Chris Moneymaker", "payout_usd": 903000 }
+  ]
+}

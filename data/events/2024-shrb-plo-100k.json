@@ -1,0 +1,34 @@
+{
+  "id": "2024-shrb-plo-100k",
+  "name": "Super High Roller Bowl: $100,000 Pot-Limit Omaha",
+  "series": "Super High Roller Bowl",
+  "tour": "PokerGO Tour (PGT)",
+  "stop": "SHRB 2024",
+  "location": "USA",
+  "date": null,
+  "year": 2024,
+  "game": "Pot-Limit Omaha",
+  "format": "re-entry",
+  "buy_in_usd": 100000,
+  "currency": "USD",
+  "entries": 42,
+  "unique_entrants": null,
+  "prize_pool_usd": 4200000,
+  "status": "excluded",
+  "field_completeness": "itm_only",
+  "exclusion_reason": "42 entries (re-entry event) but only ~11 players named in fetchable sources; full field and per-player re-entry counts not published. Cannot compute exact buy-ins for the field.",
+  "sources": [
+    "https://www.cardplayer.com/poker-news/29464-seth-davies-wins-his-second-super-high-roller-bowl-title-of-2024"
+  ],
+  "notes": "Exact event date not confirmed in fetchable sources (article published 2024-10-27). Top 7 paid.",
+  "entrants": [],
+  "results": [
+    { "place": 1, "player": "Seth Davies", "payout_usd": 1500000 },
+    { "place": 2, "player": "Artem Maksimov", "payout_usd": 900000 },
+    { "place": 3, "player": "Sean Winter", "payout_usd": 600000 },
+    { "place": 4, "player": "Jared Bleznick", "payout_usd": 450000 },
+    { "place": 5, "player": "Josh Arieh", "payout_usd": 330000 },
+    { "place": 6, "player": "Sam Soverel", "payout_usd": 250000 },
+    { "place": 7, "player": "Benjamin Tollerene", "payout_usd": 170000 }
+  ]
+}

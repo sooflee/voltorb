@@ -1,0 +1,29 @@
+{
+  "id": "2024-06-23-wsop-e55-250k-shr",
+  "name": "WSOP Event #55: $250,000 Super High Roller No-Limit Hold'em",
+  "series": "World Series of Poker",
+  "tour": "WSOP",
+  "stop": "2024 WSOP, Las Vegas",
+  "location": "Horseshoe & Paris, Las Vegas, USA",
+  "date": "2024-06-23",
+  "year": 2024,
+  "game": "No-Limit Hold'em",
+  "format": "re-entry",
+  "buy_in_usd": 250000,
+  "currency": "USD",
+  "entries": 75,
+  "unique_entrants": null,
+  "prize_pool_usd": 18675000,
+  "status": "excluded",
+  "field_completeness": "itm_only",
+  "exclusion_reason": "75-entry re-entry field; full entrant list and per-player re-entry counts not available from fetchable sources. Only partial in-the-money data confirmed; full payout table needs verification against The Hendon Mob.",
+  "sources": [
+    "https://www.pgt.com/news/santhosh-suvarna-wins-2024-wsop-250000-super-high-roller",
+    "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm"
+  ],
+  "notes": "Confirmed: Santhosh Suvarna won $5,415,152 over 75 entries, prize pool $18,675,000, defeating Ben Tollerene heads-up. Remaining payout places not yet verified, so only the winner is recorded here.",
+  "entrants": [],
+  "results": [
+    { "place": 1, "player": "Santhosh Suvarna", "payout_usd": 5415152 }
+  ]
+}

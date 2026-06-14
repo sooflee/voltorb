@@ -1,0 +1,103 @@
+{
+  "summary": {
+    "events_total": 5,
+    "events_included": 1,
+    "events_excluded": 4,
+    "players": 24,
+    "pool_buy_ins_usd": 7344000,
+    "pool_winnings_usd": 7056000,
+    "years": [
+      2024,
+      2025
+    ],
+    "buy_in_floor_usd": 15000
+  },
+  "included": [
+    {
+      "id": "2024-08-25-shrb-ix",
+      "name": "Super High Roller Bowl IX",
+      "series": "Super High Roller Bowl",
+      "stop": "SHRB Cyprus 2024",
+      "date": "2024-08-25",
+      "year": 2024,
+      "buy_in_usd": 306000,
+      "entries": 24,
+      "status": "included",
+      "field_completeness": "full",
+      "exclusion_reason": null,
+      "sources": [
+        "https://www.cardplayer.com/poker-news/29277-seth-davies-wins-super-high-roller-bowl-ix-for-3-2-million",
+        "https://www.pokernews.com/news/2024/08/super-high-roller-bowl-ix-day-2-recap-46808.htm"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "2024-05-triton-montenegro-ggmillion-25k",
+      "name": "GG MILLION$ $25,000 NLH 8-Handed (Event #1)",
+      "series": "Triton Super High Roller Series",
+      "stop": "Triton Montenegro 2024",
+      "date": null,
+      "year": 2024,
+      "buy_in_usd": 25000,
+      "entries": 163,
+      "status": "excluded",
+      "field_completeness": "itm_only",
+      "exclusion_reason": "163-entry re-entry field; only the top 27 in-the-money finishers are published. No full entrant list, so buy-ins for the ~136 non-cashing entries cannot be attributed to named players.",
+      "sources": [
+        "https://www.pokernews.com/news/2024/05/chris-moneymaker-triton-series-montenegro-gg-million-win-45999.htm",
+        "https://somuchpoker.com/news/triton-super-high-roller-series-montenegro-recap-1"
+      ]
+    },
+    {
+      "id": "2024-shrb-plo-100k",
+      "name": "Super High Roller Bowl: $100,000 Pot-Limit Omaha",
+      "series": "Super High Roller Bowl",
+      "stop": "SHRB 2024",
+      "date": null,
+      "year": 2024,
+      "buy_in_usd": 100000,
+      "entries": 42,
+      "status": "excluded",
+      "field_completeness": "itm_only",
+      "exclusion_reason": "42 entries (re-entry event) but only ~11 players named in fetchable sources; full field and per-player re-entry counts not published. Cannot compute exact buy-ins for the field.",
+      "sources": [
+        "https://www.cardplayer.com/poker-news/29464-seth-davies-wins-his-second-super-high-roller-bowl-title-of-2024"
+      ]
+    },
+    {
+      "id": "2024-06-23-wsop-e55-250k-shr",
+      "name": "WSOP Event #55: $250,000 Super High Roller No-Limit Hold'em",
+      "series": "World Series of Poker",
+      "stop": "2024 WSOP, Las Vegas",
+      "date": "2024-06-23",
+      "year": 2024,
+      "buy_in_usd": 250000,
+      "entries": 75,
+      "status": "excluded",
+      "field_completeness": "itm_only",
+      "exclusion_reason": "75-entry re-entry field; full entrant list and per-player re-entry counts not available from fetchable sources. Only partial in-the-money data confirmed; full payout table needs verification against The Hendon Mob.",
+      "sources": [
+        "https://www.pgt.com/news/santhosh-suvarna-wins-2024-wsop-250000-super-high-roller",
+        "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm"
+      ]
+    },
+    {
+      "id": "2025-12-22-shrb-x",
+      "name": "Super High Roller Bowl X",
+      "series": "Super High Roller Bowl",
+      "stop": "SHRB Las Vegas 2025",
+      "date": "2025-12-22",
+      "year": 2025,
+      "buy_in_usd": 100000,
+      "entries": 23,
+      "status": "excluded",
+      "field_completeness": "partial",
+      "exclusion_reason": "Full 23-player field not published in fetchable sources; only 6 of 23 entrants named (winner, top 4, plus Jun Obara and Daniel Negreanu). Needs full field before inclusion.",
+      "sources": [
+        "https://www.pokernews.com/news/2025/12/2025-super-high-roller-bowl-recap-50283.htm",
+        "https://www.pgt.com/news/joao-simao-wins-super-high-roller-bowl-x"
+      ]
+    }
+  ]
+}

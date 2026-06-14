@@ -1,0 +1,545 @@
+{
+  "summary": {
+    "events_total": 5,
+    "events_included": 1,
+    "events_excluded": 4,
+    "players": 24,
+    "pool_buy_ins_usd": 7344000,
+    "pool_winnings_usd": 7056000,
+    "years": [
+      2024,
+      2025
+    ],
+    "buy_in_floor_usd": 15000
+  },
+  "players": [
+    {
+      "player": "Seth Davies",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 3206000,
+      "net_usd": 2900000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 3206000,
+          "net_usd": 2900000
+        }
+      ],
+      "rank": 1,
+      "roi": 9.4771
+    },
+    {
+      "player": "Juan Pardo",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 1900000,
+      "net_usd": 1594000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 1900000,
+          "net_usd": 1594000
+        }
+      ],
+      "rank": 2,
+      "roi": 5.2092
+    },
+    {
+      "player": "Jeremy Ausmus",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 1200000,
+      "net_usd": 894000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 1200000,
+          "net_usd": 894000
+        }
+      ],
+      "rank": 3,
+      "roi": 2.9216
+    },
+    {
+      "player": "Leonard Maue",
+      "events_played": 1,
+      "itm": 1,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 750000,
+      "net_usd": 444000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 750000,
+          "net_usd": 444000
+        }
+      ],
+      "rank": 4,
+      "roi": 1.451
+    },
+    {
+      "player": "Masashi Oya",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 5,
+      "roi": -1.0
+    },
+    {
+      "player": "Leon Tsoukernik",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 6,
+      "roi": -1.0
+    },
+    {
+      "player": "Artur Martirosian",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 7,
+      "roi": -1.0
+    },
+    {
+      "player": "Phil Ivey",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 8,
+      "roi": -1.0
+    },
+    {
+      "player": "Daniel Dvoress",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 9,
+      "roi": -1.0
+    },
+    {
+      "player": "Nick Petrangelo",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 10,
+      "roi": -1.0
+    },
+    {
+      "player": "Mikita Badziakouski",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 11,
+      "roi": -1.0
+    },
+    {
+      "player": "Brian Kim",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 12,
+      "roi": -1.0
+    },
+    {
+      "player": "Adrian Mateos",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 13,
+      "roi": -1.0
+    },
+    {
+      "player": "Matthias Eibinger",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 14,
+      "roi": -1.0
+    },
+    {
+      "player": "Alex Kulev",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 15,
+      "roi": -1.0
+    },
+    {
+      "player": "Bryn Kenney",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 16,
+      "roi": -1.0
+    },
+    {
+      "player": "Sam Greenwood",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 17,
+      "roi": -1.0
+    },
+    {
+      "player": "Thomas Santerne",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 18,
+      "roi": -1.0
+    },
+    {
+      "player": "Ben Heath",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 19,
+      "roi": -1.0
+    },
+    {
+      "player": "Martin Kabrhel",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 20,
+      "roi": -1.0
+    },
+    {
+      "player": "Lewis Spencer",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 21,
+      "roi": -1.0
+    },
+    {
+      "player": "Santhosh Suvarna",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 22,
+      "roi": -1.0
+    },
+    {
+      "player": "Patrik Antonius",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 23,
+      "roi": -1.0
+    },
+    {
+      "player": "Dejan Kaladjurdjevic",
+      "events_played": 1,
+      "itm": 0,
+      "buy_ins_usd": 306000,
+      "winnings_usd": 0,
+      "net_usd": -306000,
+      "events": [
+        {
+          "id": "2024-08-25-shrb-ix",
+          "name": "Super High Roller Bowl IX",
+          "date": "2024-08-25",
+          "year": 2024,
+          "buy_in_usd": 306000,
+          "entries": 1,
+          "winnings_usd": 0,
+          "net_usd": -306000
+        }
+      ],
+      "rank": 24,
+      "roi": -1.0
+    }
+  ]
+}
