@@ -234,9 +234,6 @@ function applyFilter(minYear) {
 
 function renderCards(s) {
   const cards = [
-    ["Players", s.players],
-    ["Events used", s.events_included],
-    ["Events excluded", s.events_excluded + (s.events_evaluated_excluded || 0)],
     ["Buy-ins tracked", fmtUSD(s.pool_buy_ins_usd)],
     ["Winnings tracked", fmtUSD(s.pool_winnings_usd)],
   ];
