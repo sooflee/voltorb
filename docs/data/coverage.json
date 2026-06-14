@@ -133,10 +133,10 @@
       "entries": 75,
       "status": "excluded",
       "field_completeness": "itm_only",
-      "exclusion_reason": "75-entry RE-ENTRY field; full payouts now confirmed (PokerNews) but the complete entrant roster and per-player re-entry counts are not published, so buy-ins for the field cannot be attributed. Excluded from net P&L.",
+      "exclusion_reason": "RE-ENTRY field (75 entries). Full-blog reconstruction was attempted (entire PokerNews live feed scraped via Safari) and STILL falls short of exact net P&L: (1) at least 2 entrants are anonymised at the source ('[Removed:554]', '[Removed:564]') so their buy-ins can't be attributed to a name; (2) per-player bullet counts are only partially logged in prose \u2014 Day 1 alone was 58 entries from 51 unique players (7 re-entries), and the bullet-column seat draws are mid-event snapshots, not a final cumulative tally. ~62 named entrants recovered, but not a complete, exactly-counted field. Excluded.",
       "sources": [
         "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm",
-        "https://www.pgt.com/news/santhosh-suvarna-wins-2024-wsop-250000-super-high-roller"
+        "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/"
       ]
     },
     {

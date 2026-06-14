@@ -16,12 +16,12 @@
   "prize_pool_usd": 18675000,
   "status": "excluded",
   "field_completeness": "itm_only",
-  "exclusion_reason": "75-entry RE-ENTRY field; full payouts now confirmed (PokerNews) but the complete entrant roster and per-player re-entry counts are not published, so buy-ins for the field cannot be attributed. Excluded from net P&L.",
+  "exclusion_reason": "RE-ENTRY field (75 entries). Full-blog reconstruction was attempted (entire PokerNews live feed scraped via Safari) and STILL falls short of exact net P&L: (1) at least 2 entrants are anonymised at the source ('[Removed:554]', '[Removed:564]') so their buy-ins can't be attributed to a name; (2) per-player bullet counts are only partially logged in prose — Day 1 alone was 58 entries from 51 unique players (7 re-entries), and the bullet-column seat draws are mid-event snapshots, not a final cumulative tally. ~62 named entrants recovered, but not a complete, exactly-counted field. Excluded.",
   "sources": [
     "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/payouts.htm",
-    "https://www.pgt.com/news/santhosh-suvarna-wins-2024-wsop-250000-super-high-roller"
+    "https://www.pokernews.com/tours/wsop/2024-wsop/event-55-250000-super-high-roller/"
   ],
-  "notes": "Full 12-place payout table captured from PokerNews (Safari scraper). Suvarna won $5,415,152 over 75 entries, $18,675,000 pool. Still excluded: re-entry, no full roster.",
+  "notes": "Full 12-place payouts captured from PokerNews. Suvarna won $5,415,152 over 75 entries, $18,675,000 pool. Re-entry reconstruction test (option 2): the live blog exposes a 'Bullet' column and names most re-entries (Haxton/Koon/Kisacikoglu re-entered, Lehne out on bullet 2, Vogelsang on 2), but anonymised entrants + incomplete bullet logging make an EXACT field impossible — confirming the freezeout-only ceiling.",
   "entrants": [],
   "results": [
     { "place": 1, "player": "Santhosh Suvarna", "payout_usd": 5415152 },
