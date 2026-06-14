@@ -10,5 +10,16 @@
   { "name": "WSOP Paradise Triton Invitational ($250K)", "year": 2025, "buy_in_usd": 250000, "series": "WSOP Paradise / Triton", "exclusion_reason": "Invitational with late registration to 126 entries; full field not published." },
   { "name": "WSOP $100K High Roller / Triton Main Event ($106K)", "year": 2025, "buy_in_usd": 106000, "series": "WSOP / Triton", "exclusion_reason": "Large re-entry field; full entrant list not published." },
   { "name": "Super High Roller Bowl $100K Mixed Games", "year": 2026, "buy_in_usd": 100000, "series": "Super High Roller Bowl", "exclusion_reason": "Re-entry event; full field and re-entry counts not published." },
-  { "name": "Triton Invitational ($200K)", "year": 2026, "buy_in_usd": 200000, "series": "Triton", "exclusion_reason": "Invitational with re-entry / late registration; complete field not published." }
+  { "name": "Triton Invitational ($200K)", "year": 2026, "buy_in_usd": 200000, "series": "Triton", "exclusion_reason": "Invitational with re-entry / late registration; complete field not published." },
+  { "name": "Super High Roller Bowl Russia (Sochi)", "year": 2020, "buy_in_usd": 250000, "series": "Super High Roller Bowl", "exclusion_reason": "Re-entry (one re-entry allowed): 40 entries from ~30 unique players; full field not published. (Adams won; 2020+ sweep.)" },
+  { "name": "Super High Roller Bowl Australia", "year": 2020, "buy_in_usd": 169433, "series": "Super High Roller Bowl", "exclusion_reason": "Re-entry (A$250k, one re-entry): 16 entries from 12 unique (Addamo/Eibinger re-fired); non-cashing order not fully published. (2020+ sweep.)" },
+  { "name": "WSOP $250,000 Super High Roller", "year": 2022, "buy_in_usd": 250000, "series": "WSOP", "exclusion_reason": "Re-entry event; full roster and per-player re-entry counts not published. (2020+ sweep.)" },
+  { "name": "WSOP $250,000 Super High Roller", "year": 2025, "buy_in_usd": 250000, "series": "WSOP", "exclusion_reason": "Re-entry (Foxen fired a 2nd bullet); full 63-entry roster not published. (Davies won; 2020+ sweep.)" },
+  { "name": "WSOP $100,000 High Roller", "year": 2023, "buy_in_usd": 100000, "series": "WSOP", "exclusion_reason": "Re-entry event; full field not published. (2020+ sweep.)" },
+  { "name": "WSOP $100,000 High Roller", "year": 2025, "buy_in_usd": 100000, "series": "WSOP", "exclusion_reason": "Re-entry: 103 entries from <103 unique; full field not published. (Vieira won; 2020+ sweep.)" },
+  { "name": "WSOP Paradise $50,000 High Roller", "year": 2024, "buy_in_usd": 50000, "series": "WSOP Paradise", "exclusion_reason": "Re-entry event; full field not published. (2020+ sweep.)" },
+  { "name": "Poker Masters Main Event (Purple Jacket)", "year": 2021, "buy_in_usd": 100000, "series": "PokerGO Tour", "exclusion_reason": "Re-entry event; full field not published. (2020+ sweep.)" },
+  { "name": "PokerGO Cup Final Event", "year": 2021, "buy_in_usd": 100000, "series": "PokerGO Tour", "exclusion_reason": "Re-entry event; full field not published. (2020+ sweep.)" },
+  { "name": "Stairway to Millions Event #8", "year": 2022, "buy_in_usd": 102000, "series": "PokerGO Tour", "exclusion_reason": "Re-entry event; full field not published. (2020+ sweep.)" },
+  { "name": "EPT EUR25,000 Super High Roller Warm Up", "year": 2024, "buy_in_usd": 26250, "series": "EPT", "exclusion_reason": "Re-entry event; full field not published. (2020+ sweep.)" }
 ]
