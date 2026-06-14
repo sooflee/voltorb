@@ -19,7 +19,7 @@
       2025
     ],
     "buy_in_floor_usd": 7000,
-    "events_evaluated_excluded": 23
+    "events_evaluated_excluded": 27
   },
   "included": [
     {
@@ -424,6 +424,36 @@
     },
     {
       "id": null,
+      "name": "PokerGO Cup Final Event",
+      "series": "PokerGO Tour",
+      "stop": null,
+      "date": null,
+      "year": 2021,
+      "buy_in_usd": 100000,
+      "entries": null,
+      "status": "excluded",
+      "field_completeness": "evaluated_not_full",
+      "exclusion_reason": "FREEZEOUT (23 entries) with verified results/pool, but the full 23-player roster is not published \u2014 only the cashers are named. Reconstructable in future (like SHRB X). (2020+ sweep.)",
+      "sources": [],
+      "evaluated_only": true
+    },
+    {
+      "id": null,
+      "name": "Poker Masters Main Event (Purple Jacket)",
+      "series": "PokerGO Tour",
+      "stop": null,
+      "date": null,
+      "year": 2022,
+      "buy_in_usd": 50000,
+      "entries": null,
+      "status": "excluded",
+      "field_completeness": "evaluated_not_full",
+      "exclusion_reason": "Re-entry event; full field not published. (2020+ sweep.)",
+      "sources": [],
+      "evaluated_only": true
+    },
+    {
+      "id": null,
       "name": "Stairway to Millions Event #8",
       "series": "PokerGO Tour",
       "stop": null,
@@ -449,6 +479,21 @@
       "status": "excluded",
       "field_completeness": "evaluated_not_full",
       "exclusion_reason": "Re-entry event; full roster and per-player re-entry counts not published. (2020+ sweep.)",
+      "sources": [],
+      "evaluated_only": true
+    },
+    {
+      "id": null,
+      "name": "Poker Masters Main Event (Purple Jacket)",
+      "series": "PokerGO Tour",
+      "stop": null,
+      "date": null,
+      "year": 2023,
+      "buy_in_usd": 50000,
+      "entries": null,
+      "status": "excluded",
+      "field_completeness": "evaluated_not_full",
+      "exclusion_reason": "Re-entry event; full field not published. (2020+ sweep.)",
       "sources": [],
       "evaluated_only": true
     },
@@ -614,6 +659,21 @@
       "status": "excluded",
       "field_completeness": "evaluated_not_full",
       "exclusion_reason": "Re-entry event; busted players not all named.",
+      "sources": [],
+      "evaluated_only": true
+    },
+    {
+      "id": null,
+      "name": "National Heads-Up Poker Championship",
+      "series": "PokerGO Tour",
+      "stop": null,
+      "date": null,
+      "year": 2025,
+      "buy_in_usd": 25000,
+      "entries": null,
+      "status": "excluded",
+      "field_completeness": "evaluated_not_full",
+      "exclusion_reason": "Heads-up bracket format; full bracket/field not fully published \u2014 not a standard net-P&L field. (2020+ sweep.)",
       "sources": [],
       "evaluated_only": true
     },
